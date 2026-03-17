@@ -1,0 +1,49 @@
+# giwa-eth_getblockbynumber
+
+> eth_getBlockByNumber
+
+- **Category**: Node API - Giwa (JSON-RPC)
+- **Official Docs**: https://developer.nodit.io/reference/giwa-eth_getblockbynumber
+
+## Supported Chains
+
+Giwa (sepolia)
+
+## Method
+
+`eth_getBlockByNumber`
+
+## Parameters
+
+Array of parameters:
+
+1. **Block Number or Tag** (`string` (optional)): . - : hexadecimal string (ex. "0x1") - : enum (ex. "latest", "earliest", "pending") - `earliest`: chain oldest . - `finalized`: finalized , status . (PoS) chain , finalized . - `safe`: network . ' ' network (reorgs) . - `latest`: chain , finalized (reorgs) . latest status . - `pending`: , transaction . transaction status confirmation .
+2. **Include Transactions** (`boolean` (optional)): transaction . true transaction result is returned.
+
+## Returns
+
+An object containing:
+- `baseFeePerGas` (string): fee (EIP-1559, hexadecimal wei)
+- `difficulty` (string): (hexadecimal)
+- `extraData` (string): data (hexadecimal)
+- `gasLimit` (string): (hexadecimal)
+- `gasUsed` (string): (hexadecimal)
+- `hash` (string): block hash
+- `logsBloom` (string): event Bloom filter (2048 , hexadecimal)
+- `miner` (string): address
+- `mixHash` (string): mix hash
+- `nonce` (string): nonce (hexadecimal)
+
+## Example Request
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "eth_getBlockByNumber",
+  "params": [
+    "latest",
+    false
+  ]
+}
+```

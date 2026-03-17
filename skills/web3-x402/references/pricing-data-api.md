@@ -1,0 +1,94 @@
+# Data API Pricing
+
+Uniform pricing across all chains and networks. 1 Credit = $0.000001 USDC.
+
+PPU price: `Max(cost, 0.001 USDC)` — all Data API operations have a PPU minimum of 0.001 USDC.
+
+| Operation                                  | Credit | PPU (USDC) |
+|--------------------------------------------|--------|------------|
+| `getAccountStats`                          | 37     | 0.001      |
+| `getAddressByEnsName`                      | 20     | 0.001      |
+| `getAssetHoldersById`                      | 37     | 0.001      |
+| `getAssetMetadataByIds`                    | 37     | 0.001      |
+| `getAssetMetadataByIssuer`                 | 37     | 0.001      |
+| `getAssetTransfersByAccount`               | 37     | 0.001      |
+| `getAssetTransfersById`                    | 37     | 0.001      |
+| `getAssetTransfersWithinRange`             | 37     | 0.001      |
+| `getAssetsOwnedByAccount`                  | 37     | 0.001      |
+| `getBlockByHashOrNumber`                   | 7      | 0.001      |
+| `getBlocksWithinRange`                     | 37     | 0.001      |
+| `getBtcBalanceByAccount`                   | 37     | 0.001      |
+| `getBtcTransfersByAccount`                 | 37     | 0.001      |
+| `getDailyActiveAccountsStats`              | 37     | 0.001      |
+| `getDailyActiveAccountsStatsByContract`    | 37     | 0.001      |
+| `getDailyTransactionsStats`                | 37     | 0.001      |
+| `getDailyTransactionsStatsByContract`      | 37     | 0.001      |
+| `getEnsNameByAddress`                      | 20     | 0.001      |
+| `getEnsRecordByName`                       | 37     | 0.001      |
+| `getEnsRecordsByAccount`                   | 37     | 0.001      |
+| `getEventsByAccount`                       | 37     | 0.001      |
+| `getEventsByType`                          | 37     | 0.001      |
+| `getGasPrice`                              | 20     | 0.001      |
+| `getHourlyActiveAccountsStats`             | 37     | 0.001      |
+| `getHourlyActiveAccountsStatsByContract`   | 37     | 0.001      |
+| `getHourlyTransactionsStats`               | 37     | 0.001      |
+| `getHourlyTransactionsStatsByContract`     | 37     | 0.001      |
+| `getInternalTransactionsByAccount`         | 125    | 0.001      |
+| `getInternalTransactionsByTransactionHash` | 37     | 0.001      |
+| `getLedgerByHashOrIndex`                   | 7      | 0.001      |
+| `getLedgersWithinRange`                    | 37     | 0.001      |
+| `getNativeBalanceByAccount`                | 7      | 0.001      |
+| `getNativeHolders`                         | 125    | 0.001      |
+| `getNativeTokenBalanceByAccount`           | 37     | 0.001      |
+| `getNativeTokenBalanceChangesByAccount`    | 37     | 0.001      |
+| `getNativeTokenTransfersByAccount`         | 37     | 0.001      |
+| `getNativeTransfersByAccount`              | 37     | 0.001      |
+| `getNativeTransfersWithinRange`            | 37     | 0.001      |
+| `getNextNonceByAccount`                    | 7      | 0.001      |
+| `getNftContractMetadataByContracts`        | 37     | 0.001      |
+| `getNftContractsByAccount`                 | 37     | 0.001      |
+| `getNftHoldersByContract`                  | 37     | 0.001      |
+| `getNftHoldersByTokenId`                   | 20     | 0.001      |
+| `getNftMetadataByContract`                 | 37     | 0.001      |
+| `getNftMetadataByTokenIds`                 | 37     | 0.001      |
+| `getNftTransfersByAccount`                 | 37     | 0.001      |
+| `getNftTransfersByContract`                | 37     | 0.001      |
+| `getNftTransfersByTokenId`                 | 37     | 0.001      |
+| `getNftTransfersWithinRange`               | 37     | 0.001      |
+| `getNftsOwnedByAccount`                    | 37     | 0.001      |
+| `getTokenAccountsByAssetType`              | 37     | 0.001      |
+| `getTokenAllowance`                        | 7      | 0.001      |
+| `getTokenBalanceChangesByAccount`          | 37     | 0.001      |
+| `getTokenBalanceChangesByAssetType`        | 37     | 0.001      |
+| `getTokenBalanceChangesWithinRange`        | 37     | 0.001      |
+| `getTokenContractMetadataByContracts`      | 37     | 0.001      |
+| `getTokenHoldersByContract`                | 37     | 0.001      |
+| `getTokenMetadataByAssetTypes`             | 125    | 0.001      |
+| `getTokenMetadataByMintAddresses`          | 125    | 0.001      |
+| `getTokenPairByAssetType`                  | 20     | 0.001      |
+| `getTokenPricesByContracts`                | 87     | 0.001      |
+| `getTokenTransfersByAccount`               | 37     | 0.001      |
+| `getTokenTransfersByContract`              | 37     | 0.001      |
+| `getTokenTransfersByCurrencyAndIssuer`     | 37     | 0.001      |
+| `getTokenTransfersByMintAddress`           | 37     | 0.001      |
+| `getTokenTransfersWithinRange`             | 37     | 0.001      |
+| `getTokensOwnedByAccount`                 | 37     | 0.001      |
+| `getTotalTransactionCountByAccount`        | 37     | 0.001      |
+| `getTransactionByHash`                     | 20     | 0.001      |
+| `getTransactionByTransactionId`            | 20     | 0.001      |
+| `getTransactionByVersion`                  | 7      | 0.001      |
+| `getTransactionsByAccount`                 | 37     | 0.001      |
+| `getTransactionsByHashes`                  | 125    | 0.001      |
+| `getTransactionsByTransactionIds`          | 125    | 0.001      |
+| `getTransactionsByVersions`                | 125    | 0.001      |
+| `getTransactionsInBlock`                   | 37     | 0.001      |
+| `getTransactionsInLedger`                  | 37     | 0.001      |
+| `getTransactionsInSlot`                    | 37     | 0.001      |
+| `getUnspentTransactionOutputsByAccount`    | 37     | 0.001      |
+| `isContract`                               | 7      | 0.001      |
+| `isMintAddress`                            | 7      | 0.001      |
+| `searchAssetMetadataByKeyword`             | 125    | 0.001      |
+| `searchEvents`                             | 87     | 0.001      |
+| `searchNftContractMetadataByKeyword`       | 125    | 0.001      |
+| `searchTokenContractMetadataByKeyword`     | 125    | 0.001      |
+| `syncNftMetadata`                          | 20     | 0.001      |

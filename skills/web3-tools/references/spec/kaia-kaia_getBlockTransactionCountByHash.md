@@ -1,0 +1,38 @@
+# kaia-kaia_getblocktransactioncountbyhash
+
+> kaia_getBlockTransactionCountByHash
+
+- **Category**: Node API - Kaia (JSON-RPC)
+- **Official Docs**: https://developer.nodit.io/reference/kaia-kaia_getblocktransactioncountbyhash
+
+## Supported Chains
+
+Kaia (mainnet, kairos)
+
+## Method
+
+`kaia_getBlockTransactionCountByHash`
+
+## Parameters
+
+Array of parameters:
+
+1. **Block Hash** (`string` (optional)): The block hash as a 64-character hexadecimal string.
+2. **Include Transactions** (`boolean` (optional)): transaction . true transaction result is returned.
+
+## Returns
+
+- **result** (`string`): An integer encoded as a hexadecimal string (e.g., `'0x1a'`).
+
+## Example Request
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "kaia_getBlockTransactionCountByHash",
+  "params": [
+    "0x59f63e3840e0f4a1659074c1a4021e881a268a52d31958688da1d66bfbf6d2ca"
+  ]
+}
+```

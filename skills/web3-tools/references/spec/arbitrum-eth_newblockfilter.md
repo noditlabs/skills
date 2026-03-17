@@ -1,0 +1,32 @@
+# arbitrum-eth_newblockfilter
+
+> eth_newBlockFilter
+
+- **Category**: Node API - Arbitrum (JSON-RPC)
+- **Official Docs**: https://developer.nodit.io/reference/arbitrum-eth_newblockfilter
+
+## Supported Chains
+
+Arbitrum (mainnet, sepolia)
+
+## Method
+
+`eth_newBlockFilter`
+
+## Parameters
+
+None - this method takes no parameters.
+
+## Returns
+
+- **result** (`string`): An integer encoded as a hexadecimal string (e.g., `'0x1a'`).
+
+## Example Request
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "eth_newBlockFilter"
+}
+```
