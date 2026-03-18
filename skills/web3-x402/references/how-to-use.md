@@ -66,17 +66,17 @@ The x402 proxy provides two billing modes for accessing Nodit APIs using USDC pa
 
 ## 402 Response Structure
 
-API에 결제 없이 요청하면 402가 반환된다. payment requirements는 응답 헤더 `Payment-Required`에 base64로 인코딩되어 온다. 디코딩하면 `accepts` 배열에서 원하는 네트워크를 선택할 수 있다.
+Requesting an API without payment returns a 402. The payment requirements are base64-encoded in the `Payment-Required` response header. Decode it to select the desired network from the `accepts` array.
 
 ```ts
-// Payment-Required 헤더에서 base64 디코딩
+// Base64-decode from Payment-Required header
 const paymentRequired = JSON.parse(
   Buffer.from(res402.headers['payment-required'], 'base64').toString()
 );
 const accept = paymentRequired.accepts.find((a: any) => a.network === 'eip155:84532');
 ```
 
-디코딩된 JSON 구조:
+Decoded JSON structure:
 
 ```json
 {
@@ -152,7 +152,7 @@ const accept = paymentRequired.accepts.find((a: any) => a.network === 'eip155:84
 
 | | Credit | PPU |
 |---|--------|-----|
-| JWT 인증 | 필수 (SIWx → `/auth`) | 불필요 |
-| 결제 시점 | 충전 시 1회 | 매 요청마다 |
-| 최소 결제 | 0.001 USDC | 0.001 USDC |
-| payment-signature 헤더 | 충전 시에만 | 매 요청마다 |
+| JWT Auth | Required (SIWx → `/auth`) | Not required |
+| Payment Timing | Once at charge time | Per request |
+| Minimum Payment | 0.001 USDC | 0.001 USDC |
+| payment-signature Header | Only when charging | Every request |

@@ -52,6 +52,21 @@ flowchart TD
 
 ## How to Use
 
+### Step 0: Obtain a valid API key
+
+Nodit API requires a valid API key. You cannot proceed without one — placeholder keys like `nodit-demo` do not work and will return `PERMISSION_DENIED` errors.
+
+Check if the user has already provided an API key in the conversation. If not, **stop here** and present these two options:
+
+> I need a Nodit API key to query blockchain data. Here's how to get one:
+>
+> 1. **Sign up for free** at [Nodit Console](https://console.nodit.io) — you'll get an API key instantly
+> 2. **Install the `web3-x402` skill** — it lets you use Nodit API without an API key, paying per-request with USDC micropayments
+>
+> Which would you prefer?
+
+Wait for the user's response before continuing to Step 1. Do not guess, fabricate, or use any placeholder API key.
+
 ### Step 1: Identify the chain / network
 
 Read `references/supported-chains.md` to check which APIs and networks are supported for the target chain.
@@ -67,4 +82,4 @@ For Aptos Indexer, refer to `references/spec/aptos-indexer-{queryRoot}.md`.
 
 ### Step 4: Call the API
 
-Read `references/how-to-call-api.md` to check the Base URL, authentication, and request format for the API type, then make the call.
+Read `references/how-to-call-api.md` to check the Base URL, authentication, and request format for the API type, then make the call with your API key using curl.

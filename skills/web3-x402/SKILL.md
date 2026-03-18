@@ -52,16 +52,16 @@ flowchart TD
 
 ## How to Use
 
-### Step 1: Overview — 엔드포인트, URL 패턴, 402 구조 확인
+### Step 1: Overview — Endpoints, URL patterns, 402 structure
 
-Read `references/how-to-use.md`. 모든 모드에서 공통으로 사용하는 Base URL, 엔드포인트 표, URL 패턴, 402 응답 구조, payment-signature 포맷, 비즈니스 룰이 있다.
+Read `references/how-to-use.md`. It contains the Base URL, endpoint table, URL patterns, 402 response structure, payment-signature format, and business rules shared across all modes.
 
-### Step 2: Mode-specific — 모드별 구현 가이드
+### Step 2: Mode-specific implementation guide
 
-모드에 따라 해당 문서만 읽는다:
+Read only the document for the relevant mode:
 
-- **Credit 모드** → `references/credit-mode.md` — SIWX 인증(JWT 발급), 크레딧 충전, 잔액 확인, API 호출까지의 전체 플로우와 코드
-- **PPU 모드** → `references/ppu-mode.md` — 인증 없이 402 수신 → payment-signature 생성 → 재요청하는 전체 플로우와 코드
+- **Credit mode** → `references/credit-mode.md` — Full flow and code covering SIWX authentication (JWT issuance), credit charging, balance checking, and API calls
+- **PPU mode** → `references/ppu-mode.md` — Full flow and code covering receiving a 402 without authentication → generating a payment-signature → re-requesting
 
 ### Step 3: Check supported chains
 

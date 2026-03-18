@@ -1,25 +1,25 @@
 # Credit Mode — Implementation Guide
 
-> 이 문서를 읽기 전에 `how-to-use.md`의 엔드포인트, URL 패턴, 402 응답 구조를 먼저 확인하라.
+> Before reading this document, review the endpoints, URL patterns, and 402 response structure in `how-to-use.md`.
 
 ## Flow Overview
 
 ```
-Step 1. JWT 발급       POST /auth                                           → accessToken
-Step 2. 크레딧 충전     POST /credit/charge                                  → 402 → payment-signature 첨부 재요청 → 충전 완료
-Step 3. 잔액 확인       GET  /credit/balance                                 → { balance }
-Step 4. API 호출       JWT를 Authorization 헤더에 넣어 요청                   → 크레딧 차감
+Step 1. Issue JWT       POST /auth                                           → accessToken
+Step 2. Charge credits  POST /credit/charge                                  → 402 → re-request with payment-signature → charge complete
+Step 3. Check balance   GET  /credit/balance                                 → { balance }
+Step 4. API call        Request with JWT in Authorization header             → credits deducted
 ```
 
 ---
 
 ## Step 1: SIWX Authentication → JWT
 
-Private key로 메시지에 서명한 뒤 `POST /auth`로 JWT를 발급받는다. JWT는 24시간 유효.
+Sign a message with your private key, then obtain a JWT via `POST /auth`. The JWT is valid for 24 hours.
 
-### SIWE 메시지 구성 (EVM)
+### SIWE Message Format (EVM)
 
-아래 형식을 정확히 따라야 한다. 각 줄은 `\n`으로 연결한다.
+Follow the format below exactly. Each line is joined with `\n`.
 
 ```
 x402.nodit.io wants you to sign in with your Ethereum account:
@@ -32,13 +32,13 @@ Version: 1
 Chain ID: {chainId}
 Nonce: {random hex 16bytes}
 Issued At: {ISO 8601}
-Expiration Time: {ISO 8601, +10분 권장}
+Expiration Time: {ISO 8601, +10 min recommended}
 ```
 
-- 서명: `wallet.signMessage(message)` (EIP-191 personal_sign)
-- `chainId`: 유저가 선택한 네트워크의 Chain ID (예: Base Mainnet → `8453`)
+- Signature: `wallet.signMessage(message)` (EIP-191 personal_sign)
+- `chainId`: The Chain ID of the user's selected network (e.g., Base Mainnet → `8453`)
 
-### SIWS 메시지 구성 (Solana)
+### SIWS Message Format (Solana)
 
 ```
 x402.nodit.io wants you to sign in with your Solana account:
@@ -51,28 +51,28 @@ Version: 1
 Chain ID: {chainId}
 Nonce: {random hex 16bytes}
 Issued At: {ISO 8601}
-Expiration Time: {ISO 8601, +10분 권장}
+Expiration Time: {ISO 8601, +10 min recommended}
 ```
 
-- 서명: `nacl.sign.detached(messageBytes, secretKey)` → base58 인코딩
-- `chainId`: 유저가 선택한 네트워크의 Chain ID (예: Solana Mainnet → `5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp`)
+- Signature: `nacl.sign.detached(messageBytes, secretKey)` → base58 encode
+- `chainId`: The Chain ID of the user's selected network (e.g., Solana Mainnet → `5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp`)
 
-### POST /auth 요청
+### POST /auth Request
 
 ```json
 {
-  "message": "<위에서 구성한 메시지 문자열>",
-  "signature": "<서명 값>"
+  "message": "<message string constructed above>",
+  "signature": "<signature value>"
 }
 ```
 
-응답: `{ "accessToken": "<JWT>" }`
+Response: `{ "accessToken": "<JWT>" }`
 
 ---
 
 ## Step 2: Charge Credits
 
-### 2-1. 충전 요청
+### 2-1. Charge Request
 
 ```
 POST /credit/charge
@@ -80,19 +80,19 @@ Headers: Authorization: Bearer <JWT>
 Body: { "amount": "1000000" }   ← 1 USDC = 1,000,000 atomic units
 ```
 
-→ 402 응답. `Payment-Required` 헤더를 base64 디코딩하여 `accepts` 배열을 얻는다.
+→ Returns a 402 response. Base64-decode the `Payment-Required` header to get the `accepts` array.
 
-### 2-2. accept 선택
+### 2-2. Select an accept
 
-`accepts` 배열에서 유저가 결제에 사용할 네트워크의 accept 객체를 `network` 필드로 필터링하여 선택한다. 지원되는 결제 네트워크는 `supported-chains.md` 참조.
+Filter the `accepts` array by the `network` field to select the accept object for the user's desired payment network. See `supported-chains.md` for supported payment networks.
 
-### 2-3. payment-signature 생성
+### 2-3. Generate payment-signature
 
-선택한 네트워크에 따라 서명 방식이 다르다.
+The signing method differs depending on the selected network.
 
-#### EVM: EIP-3009 TransferWithAuthorization 서명
+#### EVM: EIP-3009 TransferWithAuthorization Signature
 
-EIP-712 typed data 서명. domain과 authorization 객체를 구성한다.
+EIP-712 typed data signature. Construct the domain and authorization objects.
 
 **EIP-712 Domain:**
 
@@ -100,12 +100,12 @@ EIP-712 typed data 서명. domain과 authorization 객체를 구성한다.
 {
   "name": "{accept.extra.name}",
   "version": "{accept.extra.version}",
-  "chainId": "{accept.network의 chainId}",
+  "chainId": "{chainId from accept.network}",
   "verifyingContract": "{accept.asset}"
 }
 ```
 
-**Authorization 객체:**
+**Authorization Object:**
 
 ```json
 {
@@ -113,65 +113,65 @@ EIP-712 typed data 서명. domain과 authorization 객체를 구성한다.
   "to": "{accept.payTo}",
   "value": "{accept.amount}",
   "validAfter": "0",
-  "validBefore": "{현재 unix timestamp + accept.maxTimeoutSeconds (기본 3600)}",
+  "validBefore": "{current unix timestamp + accept.maxTimeoutSeconds (default 3600)}",
   "nonce": "{random 32bytes hex}"
 }
 ```
 
-**EIP-3009 Type 정의:**
+**EIP-3009 Type Definition:**
 
 ```
 TransferWithAuthorization(address from, address to, uint256 value, uint256 validAfter, uint256 validBefore, bytes32 nonce)
 ```
 
-서명: `wallet.signTypedData(domain, types, authorization)`
+Signature: `wallet.signTypedData(domain, types, authorization)`
 
-#### Solana: USDC TransferChecked 트랜잭션
+#### Solana: USDC TransferChecked Transaction
 
-VersionedTransaction (V0)을 빌드하고 유저만 partial sign한다.
+Build a VersionedTransaction (V0) and have only the user partial-sign it.
 
-**트랜잭션 구성:**
+**Transaction Structure:**
 
-| 항목 | 값 |
-|------|-----|
-| payerKey | `accept.extra.feePayer` (facilitator가 수수료 부담) |
-| recentBlockhash | 해당 체인의 RPC에서 조회 |
+| Field | Value |
+|-------|-------|
+| payerKey | `accept.extra.feePayer` (facilitator covers the fee) |
+| recentBlockhash | Fetch from the target chain's RPC |
 
-**Instruction 순서 (반드시 지켜야 함):**
+**Instruction Order (must be followed exactly):**
 
 1. `ComputeBudgetProgram.setComputeUnitLimit({ units: 20000 })`
 2. `ComputeBudgetProgram.setComputeUnitPrice({ microLamports: 1 })`
 3. SPL Token `TransferChecked` instruction
 
-**TransferChecked instruction:**
+**TransferChecked Instruction:**
 
-| 항목 | 값 |
+| Field | Value |
 |------|-----|
 | programId | `TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA` |
 | discriminator | `12` |
 | amount | `accept.amount` (uint64 LE) |
 | decimals | `6` (USDC) |
 
-**Account keys (순서 중요):**
+**Account Keys (order matters):**
 
 1. source ATA (from, writable)
 2. mint (`accept.asset`, readonly)
-3. destination ATA (`accept.payTo`의 ATA, writable)
+3. destination ATA (ATA of `accept.payTo`, writable)
 4. authority (wallet pubkey, signer)
 
-**ATA 주소 계산:**
+**ATA Address Derivation:**
 
 `findProgramAddressSync([ownerPubkey, tokenProgram, mintPubkey], ATA_PROGRAM)`
 
 - ATA Program: `ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL`
 
-**서명:** 유저만 sign. feePayer(facilitator)는 서버에서 서명한다.
+**Signing:** Only the user signs. The feePayer (facilitator) signs on the server side.
 
-**결과:** 직렬화한 트랜잭션을 base64 인코딩.
+**Result:** Base64-encode the serialized transaction.
 
-### 2-4. payment-signature 헤더 구성
+### 2-4. Construct the payment-signature Header
 
-서명 결과를 아래 JSON으로 감싸고 base64 인코딩하여 `payment-signature` 헤더에 넣는다.
+Wrap the signature result in the JSON below, base64-encode it, and set it as the `payment-signature` header.
 
 **EVM:**
 
@@ -179,10 +179,10 @@ VersionedTransaction (V0)을 빌드하고 유저만 partial sign한다.
 {
   "x402Version": 2,
   "resource": { "url": "<chargeUrl>", "description": "Credit charge", "mimeType": "application/json" },
-  "accepted": { /* 선택한 accept 객체 전체 */ },
+  "accepted": { /* entire selected accept object */ },
   "payload": {
-    "signature": "<EIP-712 서명>",
-    "authorization": { /* 위의 authorization 객체 */ }
+    "signature": "<EIP-712 signature>",
+    "authorization": { /* authorization object above */ }
   }
 }
 ```
@@ -193,14 +193,14 @@ VersionedTransaction (V0)을 빌드하고 유저만 partial sign한다.
 {
   "x402Version": 2,
   "resource": { "url": "<chargeUrl>", "description": "Credit charge", "mimeType": "application/json" },
-  "accepted": { /* 선택한 accept 객체 전체 */ },
+  "accepted": { /* entire selected accept object */ },
   "payload": {
     "transaction": "<base64 encoded VersionedTransaction>"
   }
 }
 ```
 
-### 2-5. 재요청
+### 2-5. Re-request
 
 ```
 POST /credit/charge
@@ -210,7 +210,7 @@ Headers:
 Body: { "amount": "1000000" }
 ```
 
-응답: `{ "balance": 1000000, "paymentResponse": { "txHash": "...", ... } }`
+Response: `{ "balance": 1000000, "paymentResponse": { "txHash": "...", ... } }`
 
 ---
 
@@ -221,17 +221,17 @@ GET /credit/balance
 Headers: Authorization: Bearer <JWT>
 ```
 
-응답: `{ "balance": <number> }`
+Response: `{ "balance": <number> }`
 
 ---
 
 ## Step 4: API Calls
 
-크레딧 잔액이 충분하면 크레딧이 차감되고 API 응답을 받는다. 잔액이 부족하면 402가 반환되며, payment-signature를 첨부하여 인라인 충전할 수 있다.
+If the credit balance is sufficient, credits are deducted and the API response is returned. If the balance is insufficient, a 402 is returned — attach a payment-signature to charge inline.
 
-operationId별 endpoint에 JWT를 `Authorization: Bearer <JWT>` 헤더로 첨부하여 요청한다. URL 패턴은 `how-to-use.md`의 Endpoints 참조.
+Send requests to the per-operationId endpoint with the JWT in the `Authorization: Bearer <JWT>` header. See `how-to-use.md` Endpoints for URL patterns.
 
-잔액 부족 시 402 응답 — payment-signature를 첨부하면 인라인 충전 가능.
+Insufficient balance returns a 402 — attach a payment-signature to charge inline.
 
 ---
 
