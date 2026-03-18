@@ -22,12 +22,12 @@ Private key로 메시지에 서명한 뒤 `POST /auth`로 JWT를 발급받는다
 아래 형식을 정확히 따라야 한다. 각 줄은 `\n`으로 연결한다.
 
 ```
-x402.nodit-stg.net wants you to sign in with your Ethereum account:
+x402.nodit.io wants you to sign in with your Ethereum account:
 {walletAddress}
 
-Sign in to x402.nodit-stg.net
+Sign in to x402.nodit.io
 
-URI: https://x402.nodit-stg.net
+URI: https://x402.nodit.io
 Version: 1
 Chain ID: {chainId}
 Nonce: {random hex 16bytes}
@@ -41,12 +41,12 @@ Expiration Time: {ISO 8601, +10분 권장}
 ### SIWS 메시지 구성 (Solana)
 
 ```
-x402.nodit-stg.net wants you to sign in with your Solana account:
+x402.nodit.io wants you to sign in with your Solana account:
 {walletAddress}
 
-Sign in to x402.nodit-stg.net
+Sign in to x402.nodit.io
 
-URI: https://x402.nodit-stg.net
+URI: https://x402.nodit.io
 Version: 1
 Chain ID: {chainId}
 Nonce: {random hex 16bytes}

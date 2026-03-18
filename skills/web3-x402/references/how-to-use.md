@@ -3,7 +3,7 @@
 ## Base URL
 
 ```
-https://x402.nodit-stg.net
+https://x402.nodit.io
 ```
 
 ## Overview
