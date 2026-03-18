@@ -28,13 +28,13 @@ GET/POST https://aptos-{network}.nodit.io/v1/{path}
 ### Data API
 
 ```
-POST https://{chain}-{network}.nodit.io/{chain}/{network}/{category}/{operationId}
+POST https://web3.nodit.io/v1/{chain}/{network}/{category}/{operationId}
 ```
 
 ### Webhook API
 
 ```
-POST https://{chain}-{network}.nodit.io/{chain}/{network}/webhooks
+POST https://web3.nodit.io/v1/{chain}/{network}/webhooks
 ```
 
 ## Chain and Network Values
@@ -144,7 +144,7 @@ operationId: `aptos-getLedgerInfo`
 operationId format: `{method}` (camelCase)
 
 ```
-POST https://ethereum-mainnet.nodit.io/ethereum/mainnet/nft/getNftContractMetadataByContracts
+POST https://web3.nodit.io/v1/ethereum/mainnet/nft/getNftContractMetadataByContracts
 X-API-KEY: your-api-key
 Content-Type: application/json
 
@@ -160,7 +160,7 @@ operationId: `getNftContractMetadataByContracts`
 operationId format: `{method}` (camelCase)
 
 ```
-POST https://ethereum-mainnet.nodit.io/ethereum/mainnet/webhooks
+POST https://web3.nodit.io/v1/ethereum/mainnet/webhooks
 X-API-KEY: your-api-key
 Content-Type: application/json
 
