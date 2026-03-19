@@ -52,6 +52,15 @@ flowchart TD
 
 ## How to Use
 
+### Step 0: Confirm which wallet to use for payment
+
+x402 requires a wallet with USDC to pay for API calls. Since this involves real funds, the user must explicitly choose which wallet to use.
+
+1. Ask the user to provide their wallet address for x402 payment (EVM or Solana).
+2. Look up the expected cost from `references/pricing-data-api.md` or `references/pricing-node-api.md`.
+3. Show the wallet address and estimated cost: "Your asset will be charged approximately $XX USDC. May I proceed?"
+4. Proceed to Step 1 only after the user grants permission.
+
 ### Step 1: Overview — Endpoints, URL patterns, 402 structure
 
 Read `references/how-to-use.md`. It contains the Base URL, endpoint table, URL patterns, 402 response structure, payment-signature format, and business rules shared across all modes.
