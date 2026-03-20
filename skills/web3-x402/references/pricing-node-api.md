@@ -171,8 +171,6 @@ Applies to: Arbitrum, Arc, Avalanche, Base, BNB, Ethereum, Giwa, Kaia, Luniverse
 
 ### Solana
 
-Networks: mainnet, devnet
-
 | Method                                | Credit | PPU (USDC) |
 |---------------------------------------|--------|------------|
 | `getAccountInfo`                      | 5      | 0.001      |
@@ -225,8 +223,6 @@ Networks: mainnet, devnet
 | `simulateTransaction`                 | 25     | 0.001      |
 
 ### Sui
-
-Networks: mainnet
 
 | Method                                  | Credit | PPU (USDC) |
 |-----------------------------------------|--------|------------|

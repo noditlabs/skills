@@ -24,11 +24,9 @@ Chains and networks available through the x402 proxy. Both Credit and PPU modes 
 | Optimism        | mainnet, sepolia        | Yes      | Yes      |
 | Polygon         | mainnet, amoy           | Yes      | Yes      |
 | Solana          | mainnet, devnet         | -        | Yes      |
-| Sui             | mainnet, testnet        | -        | Yes      |
+| Sui             | mainnet                 | -        | Yes      |
 | Tron            | mainnet                 | Yes      | -        |
 | Xrpl            | mainnet                 | Yes      | -        |
-
-**Total:** 21 chains, 30 network combinations.
 
 ## Payment Networks (for charging credits)
 

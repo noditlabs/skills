@@ -10,57 +10,57 @@ https://x402.nodit.io
 
 The x402 proxy provides two billing modes for accessing Nodit APIs using USDC payments instead of API keys.
 
-| Mode | Auth | Payment | Best For |
-|------|------|---------|----------|
+| Mode       | Auth       | Payment                                      | Best For                            |
+|------------|------------|----------------------------------------------|-------------------------------------|
 | **Credit** | SIWX → JWT | Pre-charge USDC → off-chain credit deduction | Repeated usage, lower per-call cost |
-| **PPU** | None | Per-request on-chain USDC settlement | One-off calls, no signup needed |
+| **PPU**    | None       | Per-request on-chain USDC settlement         | One-off calls, no signup needed     |
 
 ## Endpoints
 
 ### Authentication
 
-| Method | Path | Auth | Description |
-|--------|------|------|-------------|
-| POST | `/auth` | None | SIWX sign-in (SIWE/SIWS) → returns JWT |
+| Method | Path    | Auth | Description                            |
+|--------|---------|------|----------------------------------------|
+| POST   | `/auth` | None | SIWX sign-in (SIWE/SIWS) → returns JWT |
 
 ### Credit Management
 
-| Method | Path | Auth | Description |
-|--------|------|------|-------------|
-| GET | `/credit/balance` | JWT | Check credit balance |
-| POST | `/credit/charge` | JWT | Charge USDC → credits |
-| GET | `/credit/transactions` | JWT | Credit charge/spend history |
+| Method | Path                   | Auth | Description                 |
+|--------|------------------------|------|-----------------------------|
+| GET    | `/credit/balance`      | JWT  | Check credit balance        |
+| POST   | `/credit/charge`       | JWT  | Charge USDC → credits       |
+| GET    | `/credit/transactions` | JWT  | Credit charge/spend history |
 
 ### API Proxy (Credit Mode)
 
-| Method | Path | Auth | Description |
-|--------|------|------|-------------|
-| POST | `/credit/v1/{chain}/{network}/{category}/{operationId}` | JWT | Data API (credit billing) |
-| POST | `/credit/{chain}/{network}/json-rpc` | JWT | Node API JSON-RPC (credit billing) |
+| Method | Path                                                    | Auth | Description                        |
+|--------|---------------------------------------------------------|------|------------------------------------|
+| POST   | `/credit/v1/{chain}/{network}/{category}/{operationId}` | JWT  | Data API (credit billing)          |
+| POST   | `/credit/{chain}/{network}/json-rpc`                    | JWT  | Node API JSON-RPC (credit billing) |
 
 ### API Proxy (PPU Mode)
 
-| Method | Path | Auth | Description |
-|--------|------|------|-------------|
-| POST | `/pay-per-use/v1/{chain}/{network}/{category}/{operationId}` | None | Data API (per-request payment) |
-| POST | `/pay-per-use/{chain}/{network}/json-rpc` | None | Node API JSON-RPC (per-request payment) |
+| Method | Path                                                         | Auth | Description                             |
+|--------|--------------------------------------------------------------|------|-----------------------------------------|
+| POST   | `/pay-per-use/v1/{chain}/{network}/{category}/{operationId}` | None | Data API (per-request payment)          |
+| POST   | `/pay-per-use/{chain}/{network}/json-rpc`                    | None | Node API JSON-RPC (per-request payment) |
 
 ### Utility
 
-| Method | Path | Auth | Description |
-|--------|------|------|-------------|
-| GET | `/healthcheck` | None | Health check (MySQL + Redis connectivity) |
+| Method | Path           | Auth | Description                               |
+|--------|----------------|------|-------------------------------------------|
+| GET    | `/healthcheck` | None | Health check (MySQL + Redis connectivity) |
 
 ---
 
 ## URL Patterns
 
-| Mode | API Type | URL Pattern |
-|------|----------|-------------|
-| Credit | Data API | `/credit/v1/{chain}/{network}/{category}/{operationId}` |
-| Credit | Node API | `/credit/{chain}/{network}/json-rpc` |
-| PPU | Data API | `/pay-per-use/v1/{chain}/{network}/{category}/{operationId}` |
-| PPU | Node API | `/pay-per-use/{chain}/{network}/json-rpc` |
+| Mode   | API Type | URL Pattern                                                  |
+|--------|----------|--------------------------------------------------------------|
+| Credit | Data API | `/credit/v1/{chain}/{network}/{category}/{operationId}`      |
+| Credit | Node API | `/credit/{chain}/{network}/json-rpc`                         |
+| PPU    | Data API | `/pay-per-use/v1/{chain}/{network}/{category}/{operationId}` |
+| PPU    | Node API | `/pay-per-use/{chain}/{network}/json-rpc`                    |
 
 ---
 
@@ -137,22 +137,22 @@ Decoded JSON structure:
 
 ## Key Business Rules
 
-| Item | Value                       |
-|------|-----------------------------|
-| Credit unit | 1 Credit = $0.000001 USDC   |
-| Min charge | 1,000,000 credits ($1 USDC) |
+| Item              | Value                       |
+|-------------------|-----------------------------|
+| Credit unit       | 1 Credit = $0.000001 USDC   |
+| Min charge        | 1,000,000 credits ($1 USDC) |
 | Charge rate limit | 10 per minute per account   |
-| JWT expiry | 1 hour                      |
-| PPU nonce TTL | 300 seconds                 |
-| Payment timeout | 5 minutes (verifying state) |
-| Settlement speed | ~200ms (Base L2 / Solana)   |
-| PPU min amount | 0.001 USDC                  |
+| JWT expiry        | 1 hour                      |
+| PPU nonce TTL     | 300 seconds                 |
+| Payment timeout   | 5 minutes (verifying state) |
+| Settlement speed  | ~200ms (Base L2 / Solana)   |
+| PPU min amount    | 0.001 USDC                  |
 
 ## Key Differences
 
-| | Credit | PPU |
-|---|--------|-----|
-| JWT Auth | Required (SIWx → `/auth`) | Not required |
-| Payment Timing | Once at charge time | Per request |
-| Minimum Payment | 0.001 USDC | 0.001 USDC |
-| payment-signature Header | Only when charging | Every request |
+|                          | Credit                    | PPU           |
+|--------------------------|---------------------------|---------------|
+| JWT Auth                 | Required (SIWx → `/auth`) | Not required  |
+| Payment Timing           | Once at charge time       | Per request   |
+| Minimum Payment          | 0.001 USDC                | 0.001 USDC    |
+| payment-signature Header | Only when charging        | Every request |

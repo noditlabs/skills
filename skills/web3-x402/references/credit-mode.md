@@ -22,7 +22,7 @@ Sign a message with your private key, then obtain a JWT via `POST /auth`. The JW
 Follow the format below exactly. Each line is joined with `\n`.
 
 ```
-x402.nodit.io wants you to sign in with your Ethereum account:
+{domain} wants you to sign in with your Ethereum account:
 {walletAddress}
 
 Sign in to x402.nodit.io
@@ -30,18 +30,21 @@ Sign in to x402.nodit.io
 URI: https://x402.nodit.io
 Version: 1
 Chain ID: {chainId}
-Nonce: {random hex 16bytes}
+Nonce: {nonce}
 Issued At: {ISO 8601}
 Expiration Time: {ISO 8601, +10 min recommended}
 ```
 
 - Signature: `wallet.signMessage(message)` (EIP-191 personal_sign)
+- `domain`: The domain that is requesting the signing.
+- `walletAddress`: The EVM address performing the signing.
 - `chainId`: The Chain ID of the user's selected network (e.g., Base Mainnet → `8453`)
+- `nonce`: A random 16-byte hex string to prevent replay attacks.
 
 ### SIWS Message Format (Solana)
 
 ```
-x402.nodit.io wants you to sign in with your Solana account:
+{domain} wants you to sign in with your Solana account:
 {walletAddress}
 
 Sign in to x402.nodit.io
@@ -55,7 +58,10 @@ Expiration Time: {ISO 8601, +10 min recommended}
 ```
 
 - Signature: `nacl.sign.detached(messageBytes, secretKey)` → base58 encode
+- `domain`: The domain that is requesting the signing.
+- `walletAddress`: The Solana address performing the signing.
 - `chainId`: The Chain ID of the user's selected network (e.g., Solana Mainnet → `5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp`)
+- `nonce`: A random 16-byte hex string to prevent replay attacks.
 
 ### POST /auth Request
 

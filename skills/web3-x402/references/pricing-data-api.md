@@ -2,7 +2,7 @@
 
 Uniform pricing across all chains and networks. 1 Credit = $0.000001 USDC.
 
-PPU price: `Max(cost, 0.001 USDC)` — all Data API operations have a PPU minimum of 0.001 USDC.
+PPU price: all Data API operations have a PPU minimum of 0.001 USDC.
 
 | Operation                                  | Credit | PPU (USDC) |
 |--------------------------------------------|--------|------------|
@@ -72,7 +72,7 @@ PPU price: `Max(cost, 0.001 USDC)` — all Data API operations have a PPU minimu
 | `getTokenTransfersByCurrencyAndIssuer`     | 37     | 0.001      |
 | `getTokenTransfersByMintAddress`           | 37     | 0.001      |
 | `getTokenTransfersWithinRange`             | 37     | 0.001      |
-| `getTokensOwnedByAccount`                 | 37     | 0.001      |
+| `getTokensOwnedByAccount`                  | 37     | 0.001      |
 | `getTotalTransactionCountByAccount`        | 37     | 0.001      |
 | `getTransactionByHash`                     | 20     | 0.001      |
 | `getTransactionByTransactionId`            | 20     | 0.001      |
