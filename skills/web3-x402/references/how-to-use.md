@@ -137,16 +137,16 @@ Decoded JSON structure:
 
 ## Key Business Rules
 
-| Item | Value |
-|------|-------|
-| Credit unit | 1 Credit = $0.000001 USDC |
+| Item | Value                       |
+|------|-----------------------------|
+| Credit unit | 1 Credit = $0.000001 USDC   |
 | Min charge | 1,000,000 credits ($1 USDC) |
-| Charge rate limit | 10 per minute per account |
-| JWT expiry | 24 hours |
-| PPU nonce TTL | 300 seconds |
+| Charge rate limit | 10 per minute per account   |
+| JWT expiry | 1 hour                      |
+| PPU nonce TTL | 300 seconds                 |
 | Payment timeout | 5 minutes (verifying state) |
-| Settlement speed | ~200ms (Base L2 / Solana) |
-| PPU min amount | 0.001 USDC |
+| Settlement speed | ~200ms (Base L2 / Solana)   |
+| PPU min amount | 0.001 USDC                  |
 
 ## Key Differences
 

@@ -15,7 +15,7 @@ Step 4. API call        Request with JWT in Authorization header             →
 
 ## Step 1: SIWX Authentication → JWT
 
-Sign a message with your private key, then obtain a JWT via `POST /auth`. The JWT is valid for 24 hours.
+Sign a message with your private key, then obtain a JWT via `POST /auth`. The JWT is valid for 1 hour.
 
 ### SIWE Message Format (EVM)
 
