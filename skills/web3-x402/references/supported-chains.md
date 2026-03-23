@@ -30,11 +30,9 @@ Chains and networks available through the x402 proxy. Both Credit and PPU modes 
 
 ## Payment Networks (for charging credits)
 
-| Network        | Chain ID                                | Use                        |
-|----------------|-----------------------------------------|----------------------------|
-| Base Mainnet   | eip155:8453                             | Production credit charging |
-| Base Sepolia   | eip155:84532                            | Testnet credit charging    |
-| Solana Mainnet | solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp | Production credit charging |
-| Solana Devnet  | solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1 | Testnet credit charging    |
+| Network        | Chain ID                                | Use              |
+|----------------|-----------------------------------------|------------------|
+| Base Mainnet   | eip155:8453                             | Credit charging  |
+| Solana Mainnet | solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp | Credit charging  |
 
 Payment networks are for USDC settlement only. They are separate from the API target chains above.

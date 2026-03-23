@@ -73,7 +73,7 @@ Requesting an API without payment returns a 402. The payment requirements are ba
 const paymentRequired = JSON.parse(
   Buffer.from(res402.headers['payment-required'], 'base64').toString()
 );
-const accept = paymentRequired.accepts.find((a: any) => a.network === 'eip155:84532');
+const accept = paymentRequired.accepts.find((a: any) => a.network === 'eip155:8453');
 ```
 
 Decoded JSON structure:
@@ -83,8 +83,8 @@ Decoded JSON structure:
   "x402Version": 2,
   "accepts": [
     {
-      "network": "eip155:84532",
-      "asset": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+      "network": "eip155:8453",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
       "payTo": "0xeD2adE260ed6F852DB9145D7A3483dE051908672",
       "amount": "1000",
       "maxTimeoutSeconds": 3600,
@@ -92,8 +92,8 @@ Decoded JSON structure:
       "extra": { "name": "USDC", "version": "2" }
     },
     {
-      "network": "solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1",
-      "asset": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+      "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+      "asset": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
       "payTo": "2LWbc9Mi6dRUrdEHBttoNS4udDtH1A4xwBdm1EKqcT57",
       "amount": "1000",
       "scheme": "exact",

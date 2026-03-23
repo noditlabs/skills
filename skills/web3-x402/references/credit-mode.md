@@ -35,7 +35,7 @@ Issued At: {ISO 8601}
 Expiration Time: {ISO 8601, +10 min recommended}
 ```
 
-- Signature: `wallet.signMessage(message)` (EIP-191 personal_sign)
+- Signature: EIP-191 personal_sign over the message string
 - `domain`: The domain that is requesting the signing.
 - `walletAddress`: The EVM address performing the signing.
 - `chainId`: The Chain ID of the user's selected network (e.g., Base Mainnet → `8453`)
@@ -57,7 +57,7 @@ Issued At: {ISO 8601}
 Expiration Time: {ISO 8601, +10 min recommended}
 ```
 
-- Signature: `nacl.sign.detached(messageBytes, secretKey)` → base58 encode
+- Signature: Ed25519 sign over the message bytes → base58 encode
 - `domain`: The domain that is requesting the signing.
 - `walletAddress`: The Solana address performing the signing.
 - `chainId`: The Chain ID of the user's selected network (e.g., Solana Mainnet → `5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp`)
@@ -130,7 +130,7 @@ EIP-712 typed data signature. Construct the domain and authorization objects.
 TransferWithAuthorization(address from, address to, uint256 value, uint256 validAfter, uint256 validBefore, bytes32 nonce)
 ```
 
-Signature: `wallet.signTypedData(domain, types, authorization)`
+Signature: EIP-712 typed data sign over the domain, types, and authorization objects
 
 #### Solana: USDC TransferChecked Transaction
 
@@ -246,6 +246,4 @@ Insufficient balance returns a 402 — attach a payment-signature to charge inli
 | Payment Network | Chain ID                                | 1 USDC →          |
 |-----------------|-----------------------------------------|-------------------|
 | Base Mainnet    | eip155:8453                             | 1,000,000 credits |
-| Base Sepolia    | eip155:84532                            | 100,000 credits   |
 | Solana Mainnet  | solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp | 1,000,000 credits |
-| Solana Devnet   | solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1 | 100,000 credits   |
