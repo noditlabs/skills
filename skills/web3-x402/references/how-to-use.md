@@ -135,24 +135,10 @@ Decoded JSON structure:
 
 ---
 
-## Key Business Rules
-
-| Item              | Value                       |
-|-------------------|-----------------------------|
-| Credit unit       | 1 Credit = $0.000001 USDC   |
-| Min charge        | 1,000,000 credits ($1 USDC) |
-| Charge rate limit | 10 per minute per account   |
-| JWT expiry        | 1 hour                      |
-| PPU nonce TTL     | 300 seconds                 |
-| Payment timeout   | 5 minutes (verifying state) |
-| Settlement speed  | ~200ms (Base L2 / Solana)   |
-| PPU min amount    | 0.001 USDC                  |
-
 ## Key Differences
 
 |                          | Credit                    | PPU           |
 |--------------------------|---------------------------|---------------|
 | JWT Auth                 | Required (SIWx → `/auth`) | Not required  |
 | Payment Timing           | Once at charge time       | Per request   |
-| Minimum Payment          | 0.001 USDC                | 0.001 USDC    |
 | payment-signature Header | Only when charging        | Every request |
