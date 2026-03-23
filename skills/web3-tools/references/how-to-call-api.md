@@ -137,7 +137,7 @@ operationId format: `aptos-{method}` (camelCase)
 
 ```
 GET https://aptos-mainnet.nodit.io/v1
-X-API-KEY: your-api-key
+X-API-KEY: $NODIT_API_KEY
 ```
 
 operationId: `aptos-getLedgerInfo`
