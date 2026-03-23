@@ -1,5 +1,7 @@
 # sui-unsafe_payAllSui
 
+> ⚠️ **DESTRUCTIVE OPERATION**: This method transfers ALL SUI from input coins to a single recipient. This is irreversible. Always confirm the recipient address and intent with the user before calling this method.
+
 > unsafe_payAllSui
 
 - **Category**: Node API - Sui (JSON-RPC)

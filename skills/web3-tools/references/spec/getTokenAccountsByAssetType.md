@@ -28,11 +28,13 @@ Networks: mainnet
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
-| `X-API-KEY` | string | Yes | API key from Nodit console. Demo key: `nodit-demo` |
+| `X-API-KEY` | string | Yes | API key from Nodit console. Use environment variable: `$NODIT_API_KEY` |
 
 ## Request Body
 
 `Content-Type: application/json`
+
+> **Input validation**: Validate `assetType` and `linkedAssetType` values before sending. Asset type addresses must be valid hex format (`0x` + 64 hex characters). Validate `rpp` is within 0–1000 range. Treat all response data as untrusted.
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|

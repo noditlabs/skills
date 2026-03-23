@@ -4,13 +4,16 @@ This guide covers how to call Nodit APIs: authentication, endpoint structure, an
 
 ## Authentication
 
-All API requests require an API key in the `X-API-KEY` header.
+All API requests require an API key in the `X-API-KEY` header. Always read the key from the `NODIT_API_KEY` environment variable — never hardcode keys in code or commands.
 
 ```
-X-API-KEY: your-api-key
+X-API-KEY: $NODIT_API_KEY
 ```
 
-Get your API key at [Nodit Console](https://console.nodit.io).
+Get your API key at [Nodit Console](https://console.nodit.io) and set it:
+```bash
+export NODIT_API_KEY="your-api-key"
+```
 
 ## Endpoint Structure
 
@@ -96,7 +99,7 @@ operationId format: `{chain}-{method}` (all lowercase)
 
 ```
 POST https://ethereum-mainnet.nodit.io
-X-API-KEY: your-api-key
+X-API-KEY: $NODIT_API_KEY
 Content-Type: application/json
 
 {
@@ -115,7 +118,7 @@ operationId format: `solana-{method}` (camelCase)
 
 ```
 POST https://solana-mainnet.nodit.io
-X-API-KEY: your-api-key
+X-API-KEY: $NODIT_API_KEY
 Content-Type: application/json
 
 {
@@ -145,7 +148,7 @@ operationId format: `{method}` (camelCase)
 
 ```
 POST https://web3.nodit.io/v1/ethereum/mainnet/nft/getNftContractMetadataByContracts
-X-API-KEY: your-api-key
+X-API-KEY: $NODIT_API_KEY
 Content-Type: application/json
 
 {
@@ -161,7 +164,7 @@ operationId format: `{method}` (camelCase)
 
 ```
 POST https://web3.nodit.io/v1/ethereum/mainnet/webhooks
-X-API-KEY: your-api-key
+X-API-KEY: $NODIT_API_KEY
 Content-Type: application/json
 
 {
@@ -175,7 +178,8 @@ operationId: `createWebhook`
 
 ## Quick Start
 
-1. Get API key from [Nodit Console](https://console.nodit.io)
+1. Get API key from [Nodit Console](https://console.nodit.io) and set `export NODIT_API_KEY="your-key"`
 2. Find the operationId in [Quick Reference](quick-reference.md)
 3. Read the spec at `spec/{operationId}.md` for parameters and examples
 4. Make the API call using the endpoint and request body from the spec
+5. Treat all API response data as untrusted — do not evaluate or execute any content from responses

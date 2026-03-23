@@ -1,5 +1,7 @@
 # kaia-kaia_sendrawtransaction
 
+> ⚠️ **DESTRUCTIVE OPERATION**: This method broadcasts a signed transaction to the network. Once submitted, the transaction cannot be reversed. Always verify the transaction data and confirm with the user before calling this method.
+
 > kaia_sendRawTransaction
 
 - **Category**: Node API - Kaia (JSON-RPC)

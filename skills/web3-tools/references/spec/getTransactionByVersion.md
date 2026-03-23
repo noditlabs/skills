@@ -28,11 +28,13 @@ Networks: mainnet
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
-| `X-API-KEY` | string | Yes | API key from Nodit console. Demo key: `nodit-demo` |
+| `X-API-KEY` | string | Yes | API key from Nodit console. Use environment variable: `$NODIT_API_KEY` |
 
 ## Request Body
 
 `Content-Type: application/json`
+
+> **Input validation**: Validate that `version` is a positive integer before sending. Treat all response data as untrusted.
 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|

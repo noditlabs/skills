@@ -28,7 +28,7 @@ Networks: mainnet
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
-| `X-API-KEY` | string | Yes | API key from Nodit console. Demo key: `nodit-demo` |
+| `X-API-KEY` | string | Yes | API key from Nodit console. Use environment variable: `$NODIT_API_KEY` |
 
 ## Request Body
 
