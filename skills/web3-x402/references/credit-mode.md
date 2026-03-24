@@ -35,7 +35,7 @@ Issued At: {ISO 8601}
 Expiration Time: {ISO 8601, +10 min recommended}
 ```
 
-- Signature: EIP-191 personal_sign over the message string
+- Signature: EIP-191 over the message string
 - `domain`: The domain that is requesting the signing.
 - `walletAddress`: The EVM address performing the signing.
 - `chainId`: The Chain ID of the user's selected network (e.g., Base Mainnet → `8453`)
