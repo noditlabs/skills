@@ -48,7 +48,6 @@ Applies to: Arbitrum, Arc, Avalanche, Base, BNB, Ethereum, Giwa, Kaia, Luniverse
 | `eth_sendRawTransaction`                  | 10     | 0.001      |
 | `eth_uninstallFilter`                     | 2      | 0.001      |
 | `net_version`                             | 1      | 0.001      |
-| `rpc_modules`                             | 1      | 0.001      |
 | `web3_clientVersion`                      | 2      | 0.001      |
 | `web3_sha3`                               | 2      | 0.001      |
 

@@ -17,8 +17,6 @@ PPU price: all Data API operations have a PPU minimum of 0.001 USDC.
 | `getAssetsOwnedByAccount`                  | 37     | 0.001      |
 | `getBlockByHashOrNumber`                   | 7      | 0.001      |
 | `getBlocksWithinRange`                     | 37     | 0.001      |
-| `getBtcBalanceByAccount`                   | 37     | 0.001      |
-| `getBtcTransfersByAccount`                 | 37     | 0.001      |
 | `getDailyActiveAccountsStats`              | 37     | 0.001      |
 | `getDailyActiveAccountsStatsByContract`    | 37     | 0.001      |
 | `getDailyTransactionsStats`                | 37     | 0.001      |
