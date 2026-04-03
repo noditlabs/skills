@@ -3,7 +3,6 @@
 > suix_getCoins
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-suix_getCoins
 
 ## Supported Chains
 

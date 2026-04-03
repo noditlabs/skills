@@ -3,7 +3,6 @@
 > suix_getReferenceGasPrice
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-suix_getReferenceGasPrice
 
 ## Supported Chains
 

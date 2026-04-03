@@ -3,7 +3,6 @@
 > Sync Nft Metadata
 
 - **Category**: Data API - NFT
-- **Official Docs**: https://developer.nodit.io/reference/syncNftMetadata
 
 ## Supported Chains
 

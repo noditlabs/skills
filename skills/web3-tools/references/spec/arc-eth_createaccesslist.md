@@ -3,7 +3,6 @@
 > eth_createAccessList
 
 - **Category**: Node API - Arc (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/arc-eth_createaccesslist
 
 ## Supported Chains
 

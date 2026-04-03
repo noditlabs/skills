@@ -3,7 +3,6 @@
 > eth_newPendingTransactionFilter
 
 - **Category**: Node API - Giwa (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/giwa-eth_newpendingtransactionfilter
 
 ## Supported Chains
 

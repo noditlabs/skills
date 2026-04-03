@@ -3,7 +3,6 @@
 > klay_blockNumber
 
 - **Category**: Node API - Kaia (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/kaia-klay_blocknumber
 
 ## Supported Chains
 

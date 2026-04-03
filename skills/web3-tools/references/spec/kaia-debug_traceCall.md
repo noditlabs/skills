@@ -3,7 +3,6 @@
 > debug_traceCall
 
 - **Category**: Node API - Kaia Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/kaia-debug_tracecall
 
 ## Supported Chains
 

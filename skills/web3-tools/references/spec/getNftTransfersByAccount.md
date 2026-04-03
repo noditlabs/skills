@@ -3,7 +3,6 @@
 > Get NFT Transfers By Account
 
 - **Category**: Data API - NFT
-- **Official Docs**: https://developer.nodit.io/reference/getNftTransfersByAccount
 
 ## Supported Chains
 

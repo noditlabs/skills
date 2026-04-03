@@ -3,7 +3,6 @@
 > Get Events by Type
 
 - **Category**: Data API - Blockchain
-- **Official Docs**: https://developer.nodit.io/reference/getEventsByType
 
 ## Supported Chains
 

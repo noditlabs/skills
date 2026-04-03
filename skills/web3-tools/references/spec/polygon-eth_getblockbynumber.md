@@ -3,7 +3,6 @@
 > eth_getBlockByNumber
 
 - **Category**: Node API - Polygon (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/polygon-eth_getblockbynumber
 
 ## Supported Chains
 

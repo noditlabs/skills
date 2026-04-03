@@ -3,7 +3,6 @@
 > net_version
 
 - **Category**: Node API - Polygon (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/polygon-net_version
 
 ## Supported Chains
 

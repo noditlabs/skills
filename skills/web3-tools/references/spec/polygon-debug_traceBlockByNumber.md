@@ -3,7 +3,6 @@
 > debug_traceBlockByNumber
 
 - **Category**: Node API - Polygon Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/polygon-debug_traceblockbynumber
 
 ## Supported Chains
 

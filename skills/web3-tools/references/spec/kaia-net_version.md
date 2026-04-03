@@ -3,7 +3,6 @@
 > net_version
 
 - **Category**: Node API - Kaia (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/kaia-net_version
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > bor_getSignersAtHash
 
 - **Category**: Node API - Polygon Bor (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/polygon-bor_getsignersathash
 
 ## Supported Chains
 

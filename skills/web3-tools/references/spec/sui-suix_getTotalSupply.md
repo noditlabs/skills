@@ -3,7 +3,6 @@
 > suix_getTotalSupply
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-suix_getTotalSupply
 
 ## Supported Chains
 

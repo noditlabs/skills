@@ -3,7 +3,6 @@
 > debug_traceTransaction
 
 - **Category**: Node API - Kaia Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/kaia-debug_tracetransaction
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > eth_getUncleByBlockHashAndIndex
 
 - **Category**: Node API - Avalanche (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/avalanche-eth_getunclebyblockhashandindex
 
 ## Supported Chains
 

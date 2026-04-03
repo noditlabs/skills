@@ -3,7 +3,6 @@
 > Get NFT Transfers By Contract
 
 - **Category**: Data API - NFT
-- **Official Docs**: https://developer.nodit.io/reference/getNftTransfersByContract
 
 ## Supported Chains
 

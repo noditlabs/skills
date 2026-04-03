@@ -3,7 +3,6 @@
 > eth_newPendingTransactionFilter
 
 - **Category**: Node API - Base (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/base-eth_newpendingtransactionfilter
 
 ## Supported Chains
 

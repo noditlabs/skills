@@ -3,7 +3,6 @@
 > eth_maxPriorityFeePerGas
 
 - **Category**: Node API - Avalanche (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/avalanche-eth_maxpriorityfeepergas
 
 ## Supported Chains
 

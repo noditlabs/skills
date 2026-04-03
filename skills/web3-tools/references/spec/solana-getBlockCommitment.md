@@ -3,7 +3,6 @@
 > getBlockCommitment
 
 - **Category**: Node API - Solana (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/solana-getBlockCommitment
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > Search Token Contract Metadata by Keyword
 
 - **Category**: Data API - Token
-- **Official Docs**: https://developer.nodit.io/reference/searchTokenContractMetadataByKeyword
 
 ## Supported Chains
 

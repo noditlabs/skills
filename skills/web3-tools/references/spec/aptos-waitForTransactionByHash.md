@@ -3,7 +3,6 @@
 > Wait for transaction by hash
 
 - **Category**: Node API - Aptos (REST)
-- **Official Docs**: https://developer.nodit.io/reference/aptos-waitForTransactionByHash
 
 ## Supported Chains
 

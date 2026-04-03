@@ -3,7 +3,6 @@
 > Get Daily Transactions Stats
 
 - **Category**: Data API - Statistics
-- **Official Docs**: https://developer.nodit.io/reference/getDailyTransactionsStats
 
 ## Supported Chains
 

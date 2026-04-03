@@ -3,7 +3,6 @@
 > Get NFT Contracts by Account
 
 - **Category**: Data API - NFT
-- **Official Docs**: https://developer.nodit.io/reference/getNftContractsByAccount
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > debug_traceTransaction
 
 - **Category**: Node API - Luniverse Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/luniverse-debug_tracetransaction
 
 ## Supported Chains
 

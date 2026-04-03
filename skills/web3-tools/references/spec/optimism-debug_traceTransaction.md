@@ -3,7 +3,6 @@
 > debug_traceTransaction
 
 - **Category**: Node API - Optimism Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/optimism-debug_tracetransaction
 
 ## Supported Chains
 

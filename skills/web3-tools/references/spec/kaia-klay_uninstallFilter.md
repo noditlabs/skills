@@ -3,7 +3,6 @@
 > klay_uninstallFilter
 
 - **Category**: Node API - Kaia (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/kaia-klay_uninstallfilter
 
 ## Supported Chains
 

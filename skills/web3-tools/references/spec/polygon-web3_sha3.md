@@ -3,7 +3,6 @@
 > web3_sha3
 
 - **Category**: Node API - Polygon (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/polygon-web3_sha3
 
 ## Supported Chains
 

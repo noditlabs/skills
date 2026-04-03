@@ -3,7 +3,6 @@
 > getSupply
 
 - **Category**: Node API - Solana (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/solana-getSupply
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > eth_getBlockReceipts
 
 - **Category**: Node API - Giwa (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/giwa-eth_getblockreceipts
 
 ## Supported Chains
 

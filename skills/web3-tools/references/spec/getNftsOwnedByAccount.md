@@ -3,7 +3,6 @@
 > Get NFTs Owned By Account
 
 - **Category**: Data API - NFT
-- **Official Docs**: https://developer.nodit.io/reference/getNftsOwnedByAccount
 
 ## Supported Chains
 

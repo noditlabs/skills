@@ -3,7 +3,6 @@
 > optimism_outputAtBlock
 
 - **Category**: Node API - Base (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/base-optimism_outputatblock
 
 ## Supported Chains
 

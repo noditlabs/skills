@@ -3,7 +3,6 @@
 > Get Total Transaction Count By Account
 
 - **Category**: Data API - Blockchain
-- **Official Docs**: https://developer.nodit.io/reference/getTotalTransactionCountByAccount
 
 ## Supported Chains
 

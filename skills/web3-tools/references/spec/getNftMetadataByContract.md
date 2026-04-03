@@ -3,7 +3,6 @@
 > Get NFT Metadata by Contract
 
 - **Category**: Data API - NFT
-- **Official Docs**: https://developer.nodit.io/reference/getNftMetadataByContract
 
 ## Supported Chains
 

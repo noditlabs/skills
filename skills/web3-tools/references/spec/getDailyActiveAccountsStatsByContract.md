@@ -3,7 +3,6 @@
 > Get Daily Active Accounts Stats By Contract
 
 - **Category**: Data API - Statistics
-- **Official Docs**: https://developer.nodit.io/reference/getDailyActiveAccountsStatsByContract
 
 ## Supported Chains
 

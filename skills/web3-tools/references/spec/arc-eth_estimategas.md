@@ -3,7 +3,6 @@
 > eth_estimateGas
 
 - **Category**: Node API - Arc (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/arc-eth_estimategas
 
 ## Supported Chains
 

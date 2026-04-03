@@ -3,7 +3,6 @@
 > trace_replayTransaction
 
 - **Category**: Node API - Ethereum (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/ethereum-trace_replaytransaction
 
 ## Supported Chains
 

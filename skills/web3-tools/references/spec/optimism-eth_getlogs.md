@@ -3,7 +3,6 @@
 > eth_getLogs
 
 - **Category**: Node API - Optimism (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/optimism-eth_getlogs
 
 ## Supported Chains
 

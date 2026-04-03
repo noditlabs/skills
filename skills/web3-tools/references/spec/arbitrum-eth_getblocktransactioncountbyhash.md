@@ -3,7 +3,6 @@
 > eth_getBlockTransactionCountByHash
 
 - **Category**: Node API - Arbitrum (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/arbitrum-eth_getblocktransactioncountbyhash
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > eth_getUncleCountByBlockHash
 
 - **Category**: Node API - Ethereum (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/ethereum-eth_getunclecountbyblockhash
 
 ## Supported Chains
 

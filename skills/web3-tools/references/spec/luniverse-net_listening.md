@@ -3,7 +3,6 @@
 > net_listening
 
 - **Category**: Node API - Luniverse (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/luniverse-net_listening
 
 ## Supported Chains
 

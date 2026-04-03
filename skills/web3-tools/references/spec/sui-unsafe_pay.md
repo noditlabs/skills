@@ -3,7 +3,6 @@
 > unsafe_pay
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-unsafe_pay
 
 ## Supported Chains
 

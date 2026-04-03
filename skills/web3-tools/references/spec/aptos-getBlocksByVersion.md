@@ -3,7 +3,6 @@
 > Get blocks by version
 
 - **Category**: Node API - Aptos (REST)
-- **Official Docs**: https://developer.nodit.io/reference/aptos-getBlocksByVersion
 
 ## Supported Chains
 

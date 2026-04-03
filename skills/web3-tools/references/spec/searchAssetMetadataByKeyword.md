@@ -3,7 +3,6 @@
 > Search Asset Metadata By Keyword
 
 - **Category**: Data API - Asset
-- **Official Docs**: https://developer.nodit.io/reference/searchAssetMetadataByKeyword
 
 ## Supported Chains
 

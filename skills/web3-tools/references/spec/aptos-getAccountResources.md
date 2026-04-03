@@ -3,7 +3,6 @@
 > Get account resources
 
 - **Category**: Node API - Aptos (REST)
-- **Official Docs**: https://developer.nodit.io/reference/aptos-getAccountResources
 
 ## Supported Chains
 

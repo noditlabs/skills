@@ -3,7 +3,6 @@
 > Get ENS Records By Account
 
 - **Category**: Data API - ENS
-- **Official Docs**: https://developer.nodit.io/reference/getEnsRecordsByAccount
 
 ## Supported Chains
 

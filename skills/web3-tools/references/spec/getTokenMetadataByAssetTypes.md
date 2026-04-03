@@ -3,7 +3,6 @@
 > Get Token Metadata by Asset Types
 
 - **Category**: Data API - Token
-- **Official Docs**: https://developer.nodit.io/reference/getTokenMetadataByAssetTypes
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > eth_estimateGas
 
 - **Category**: Node API - Base (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/base-eth_estimategas
 
 ## Supported Chains
 

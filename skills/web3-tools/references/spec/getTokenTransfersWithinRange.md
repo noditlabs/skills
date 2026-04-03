@@ -3,7 +3,6 @@
 > Get Token Transfers Within Range
 
 - **Category**: Data API - Token
-- **Official Docs**: https://developer.nodit.io/reference/getTokenTransfersWithinRange
 
 ## Supported Chains
 

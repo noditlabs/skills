@@ -3,7 +3,6 @@
 > Get events by event handle
 
 - **Category**: Node API - Aptos (REST)
-- **Official Docs**: https://developer.nodit.io/reference/aptos-getEventsByEventHandle
 
 ## Supported Chains
 

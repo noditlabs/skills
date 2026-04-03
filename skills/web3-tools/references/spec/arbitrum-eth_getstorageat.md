@@ -3,7 +3,6 @@
 > eth_getStorageAt
 
 - **Category**: Node API - Arbitrum (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/arbitrum-eth_getstorageat
 
 ## Supported Chains
 

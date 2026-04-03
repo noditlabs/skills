@@ -3,7 +3,6 @@
 > Get Token Contract Metadata by Contracts
 
 - **Category**: Data API - Token
-- **Official Docs**: https://developer.nodit.io/reference/getTokenContractMetadataByContracts
 
 ## Supported Chains
 

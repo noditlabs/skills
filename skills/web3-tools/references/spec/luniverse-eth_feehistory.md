@@ -3,7 +3,6 @@
 > eth_feeHistory
 
 - **Category**: Node API - Luniverse (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/luniverse-eth_feehistory
 
 ## Supported Chains
 

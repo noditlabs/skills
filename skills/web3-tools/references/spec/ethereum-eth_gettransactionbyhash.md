@@ -3,7 +3,6 @@
 > eth_getTransactionByHash
 
 - **Category**: Node API - Ethereum (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/ethereum-eth_gettransactionbyhash
 
 ## Supported Chains
 

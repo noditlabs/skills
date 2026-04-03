@@ -3,7 +3,6 @@
 > net_listening
 
 - **Category**: Node API - Giwa (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/giwa-net_listening
 
 ## Supported Chains
 

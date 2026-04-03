@@ -3,7 +3,6 @@
 > Get Webhook History
 
 - **Category**: Webhook API
-- **Official Docs**: https://developer.nodit.io/reference/getWebhookHistory
 
 ## Supported Chains
 

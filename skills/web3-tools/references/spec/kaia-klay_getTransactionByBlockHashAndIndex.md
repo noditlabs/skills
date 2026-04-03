@@ -3,7 +3,6 @@
 > klay_getTransactionByBlockHashAndIndex
 
 - **Category**: Node API - Kaia (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/kaia-klay_gettransactionbyblockhashandindex
 
 ## Supported Chains
 

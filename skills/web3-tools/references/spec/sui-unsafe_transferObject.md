@@ -3,7 +3,6 @@
 > unsafe_transferObject
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-unsafe_transferObject
 
 ## Supported Chains
 

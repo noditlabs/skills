@@ -3,7 +3,6 @@
 > web3_sha3
 
 - **Category**: Node API - Giwa (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/giwa-web3_sha3
 
 ## Supported Chains
 

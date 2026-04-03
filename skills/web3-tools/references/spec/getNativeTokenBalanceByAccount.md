@@ -3,7 +3,6 @@
 > Get Native Token Balance by Account
 
 - **Category**: Data API - Token
-- **Official Docs**: https://developer.nodit.io/reference/getNativeTokenBalanceByAccount
 
 ## Supported Chains
 

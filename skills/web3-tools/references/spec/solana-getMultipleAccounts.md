@@ -3,7 +3,6 @@
 > getMultipleAccounts
 
 - **Category**: Node API - Solana (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/solana-getMultipleAccounts
 
 ## Supported Chains
 

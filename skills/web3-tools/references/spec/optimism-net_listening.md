@@ -3,7 +3,6 @@
 > net_listening
 
 - **Category**: Node API - Optimism (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/optimism-net_listening
 
 ## Supported Chains
 

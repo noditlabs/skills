@@ -3,7 +3,6 @@
 > web3_clientVersion
 
 - **Category**: Node API - Ethereum (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/ethereum-web3_clientversion
 
 ## Supported Chains
 

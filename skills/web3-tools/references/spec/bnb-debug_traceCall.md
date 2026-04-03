@@ -3,7 +3,6 @@
 > debug_traceCall
 
 - **Category**: Node API - Bnb Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/bnb-debug_tracecall
 
 ## Supported Chains
 

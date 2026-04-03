@@ -3,7 +3,6 @@
 > sui_getCheckpoint
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-sui_getCheckpoint
 
 ## Supported Chains
 

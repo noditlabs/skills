@@ -3,7 +3,6 @@
 > eth_getTransactionByBlockHashAndIndex
 
 - **Category**: Node API - Giwa (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/giwa-eth_gettransactionbyblockhashandindex
 
 ## Supported Chains
 

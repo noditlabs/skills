@@ -3,7 +3,6 @@
 > eth_getTransactionReceipt
 
 - **Category**: Node API - Ethereum (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/ethereum-eth_gettransactionreceipt
 
 ## Supported Chains
 

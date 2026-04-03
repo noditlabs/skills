@@ -3,7 +3,6 @@
 > Get NFT Holders by Contract
 
 - **Category**: Data API - NFT
-- **Official Docs**: https://developer.nodit.io/reference/getNftHoldersByContract
 
 ## Supported Chains
 

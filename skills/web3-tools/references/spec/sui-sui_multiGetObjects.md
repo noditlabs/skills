@@ -3,7 +3,6 @@
 > sui_multiGetObjects
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-sui_multiGetObjects
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > eth_createAccessList
 
 - **Category**: Node API - Optimism (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/optimism-eth_createaccesslist
 
 ## Supported Chains
 

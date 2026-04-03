@@ -3,7 +3,6 @@
 > Get Block by Hash or Number
 
 - **Category**: Data API - Blockchain
-- **Official Docs**: https://developer.nodit.io/reference/getBlockByHashOrNumber
 
 ## Supported Chains
 

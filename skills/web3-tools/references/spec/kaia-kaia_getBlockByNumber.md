@@ -3,7 +3,6 @@
 > kaia_getBlockByNumber
 
 - **Category**: Node API - Kaia (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/kaia-kaia_getblockbynumber
 
 ## Supported Chains
 

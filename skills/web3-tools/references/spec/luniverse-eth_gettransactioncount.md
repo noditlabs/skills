@@ -3,7 +3,6 @@
 > eth_getTransactionCount
 
 - **Category**: Node API - Luniverse (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/luniverse-eth_gettransactioncount
 
 ## Supported Chains
 

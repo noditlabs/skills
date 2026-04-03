@@ -3,7 +3,6 @@
 > web3_sha3
 
 - **Category**: Node API - Arbitrum (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/arbitrum-web3_sha3
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > eth_getFilterLogs
 
 - **Category**: Node API - Avalanche (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/avalanche-eth_getfilterlogs
 
 ## Supported Chains
 

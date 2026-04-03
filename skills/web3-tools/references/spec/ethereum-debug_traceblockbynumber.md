@@ -3,7 +3,6 @@
 > debug_traceBlockByNumber
 
 - **Category**: Node API - Ethereum Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/ethereum-debug_traceblockbynumber
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > Get transactions
 
 - **Category**: Node API - Aptos (REST)
-- **Official Docs**: https://developer.nodit.io/reference/aptos-getTransactions
 
 ## Supported Chains
 

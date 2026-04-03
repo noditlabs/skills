@@ -3,7 +3,6 @@
 > sui_getMoveFunctionArgTypes
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-sui_getMoveFunctionArgTypes
 
 ## Supported Chains
 

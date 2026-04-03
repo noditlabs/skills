@@ -3,7 +3,6 @@
 > web3_clientVersion
 
 - **Category**: Node API - Polygon (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/polygon-web3_clientversion
 
 ## Supported Chains
 

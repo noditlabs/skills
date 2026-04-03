@@ -3,7 +3,6 @@
 > web3_clientVersion
 
 - **Category**: Node API - Arc (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/arc-web3_clientversion
 
 ## Supported Chains
 

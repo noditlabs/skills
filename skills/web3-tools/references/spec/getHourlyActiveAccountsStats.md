@@ -3,7 +3,6 @@
 > Get Hourly Active Accounts Stats
 
 - **Category**: Data API - Statistics
-- **Official Docs**: https://developer.nodit.io/reference/getHourlyActiveAccountsStats
 
 ## Supported Chains
 

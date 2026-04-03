@@ -3,7 +3,6 @@
 > Get Asset Transfers By Account
 
 - **Category**: Data API - Asset
-- **Official Docs**: https://developer.nodit.io/reference/getAssetTransfersByAccount
 
 ## Supported Chains
 

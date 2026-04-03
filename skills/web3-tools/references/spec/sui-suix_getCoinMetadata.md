@@ -3,7 +3,6 @@
 > suix_getCoinMetadata
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-suix_getCoinMetadata
 
 ## Supported Chains
 

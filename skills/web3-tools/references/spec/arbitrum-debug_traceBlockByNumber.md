@@ -3,7 +3,6 @@
 > debug_traceBlockByNumber
 
 - **Category**: Node API - Arbitrum Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/arbitrum-debug_traceblockbynumber
 
 ## Supported Chains
 

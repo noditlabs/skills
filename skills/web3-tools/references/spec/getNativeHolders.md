@@ -3,7 +3,6 @@
 > Get Native Holders
 
 - **Category**: Data API - Token
-- **Official Docs**: https://developer.nodit.io/reference/getNativeHolders
 
 ## Supported Chains
 

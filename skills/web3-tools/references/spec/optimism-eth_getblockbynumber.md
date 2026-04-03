@@ -3,7 +3,6 @@
 > eth_getBlockByNumber
 
 - **Category**: Node API - Optimism (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/optimism-eth_getblockbynumber
 
 ## Supported Chains
 

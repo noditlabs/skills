@@ -3,7 +3,6 @@
 > Get NFT Transfers Within Range
 
 - **Category**: Data API - NFT
-- **Official Docs**: https://developer.nodit.io/reference/getNftTransfersWithinRange
 
 ## Supported Chains
 

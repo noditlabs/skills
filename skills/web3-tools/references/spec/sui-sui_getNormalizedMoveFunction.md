@@ -3,7 +3,6 @@
 > sui_getNormalizedMoveFunction
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-sui_getNormalizedMoveFunction
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > debug_traceBlockByHash
 
 - **Category**: Node API - Luniverse Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/luniverse-debug_traceblockbyhash
 
 ## Supported Chains
 

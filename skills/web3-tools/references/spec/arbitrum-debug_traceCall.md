@@ -3,7 +3,6 @@
 > debug_traceCall
 
 - **Category**: Node API - Arbitrum Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/arbitrum-debug_tracecall
 
 ## Supported Chains
 

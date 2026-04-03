@@ -3,7 +3,6 @@
 > sui_getTransactionBlock
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-sui_getTransactionBlock
 
 ## Supported Chains
 

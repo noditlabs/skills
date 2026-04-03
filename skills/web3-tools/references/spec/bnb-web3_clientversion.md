@@ -3,7 +3,6 @@
 > web3_clientVersion
 
 - **Category**: Node API - Bnb (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/bnb-web3_clientversion
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > Get Token Transfers by Contract
 
 - **Category**: Data API - Token
-- **Official Docs**: https://developer.nodit.io/reference/getTokenTransfersByContract
 
 ## Supported Chains
 

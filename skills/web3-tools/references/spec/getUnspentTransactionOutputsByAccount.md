@@ -3,7 +3,6 @@
 > Get Unspent Transaction Outputs By Account
 
 - **Category**: Data API - Blockchain
-- **Official Docs**: https://developer.nodit.io/reference/getUnspentTransactionOutputsByAccount
 
 ## Supported Chains
 

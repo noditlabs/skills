@@ -3,7 +3,6 @@
 > Get ENS Record By Name
 
 - **Category**: Data API - ENS
-- **Official Docs**: https://developer.nodit.io/reference/getEnsRecordByName
 
 ## Supported Chains
 

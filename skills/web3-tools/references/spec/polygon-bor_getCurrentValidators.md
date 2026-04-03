@@ -3,7 +3,6 @@
 > bor_getCurrentValidators
 
 - **Category**: Node API - Polygon Bor (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/polygon-bor_getcurrentvalidators
 
 ## Supported Chains
 

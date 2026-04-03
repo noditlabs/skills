@@ -3,7 +3,6 @@
 > Get Daily Active Accounts Stats
 
 - **Category**: Data API - Statistics
-- **Official Docs**: https://developer.nodit.io/reference/getDailyActiveAccountsStats
 
 ## Supported Chains
 

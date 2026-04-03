@@ -3,7 +3,6 @@
 > eth_call
 
 - **Category**: Node API - Ethereum (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/ethereum-eth_call
 
 ## Supported Chains
 

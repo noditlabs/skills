@@ -3,7 +3,6 @@
 > debug_traceBlockByHash
 
 - **Category**: Node API - Bnb Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/bnb-debug_traceblockbyhash
 
 ## Supported Chains
 

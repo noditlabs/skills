@@ -3,7 +3,6 @@
 > eth_newBlockFilter
 
 - **Category**: Node API - Avalanche (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/avalanche-eth_newblockfilter
 
 ## Supported Chains
 

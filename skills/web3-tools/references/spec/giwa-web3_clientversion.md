@@ -3,7 +3,6 @@
 > web3_clientVersion
 
 - **Category**: Node API - Giwa (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/giwa-web3_clientversion
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > web3_clientVersion
 
 - **Category**: Node API - Luniverse (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/luniverse-web3_clientversion
 
 ## Supported Chains
 

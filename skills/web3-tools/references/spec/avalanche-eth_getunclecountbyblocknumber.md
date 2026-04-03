@@ -3,7 +3,6 @@
 > eth_getUncleCountByBlockNumber
 
 - **Category**: Node API - Avalanche (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/avalanche-eth_getunclecountbyblocknumber
 
 ## Supported Chains
 

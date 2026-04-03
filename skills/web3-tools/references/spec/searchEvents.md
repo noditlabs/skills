@@ -3,7 +3,6 @@
 > Search Events
 
 - **Category**: Data API - Blockchain
-- **Official Docs**: https://developer.nodit.io/reference/searchEvents
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > eth_getBlockReceipts
 
 - **Category**: Node API - Kaia (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/kaia-eth_getblockreceipts
 
 ## Supported Chains
 

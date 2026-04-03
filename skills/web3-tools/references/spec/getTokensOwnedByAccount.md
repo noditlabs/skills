@@ -3,7 +3,6 @@
 > Get Tokens Owned By Account
 
 - **Category**: Data API - Token
-- **Official Docs**: https://developer.nodit.io/reference/getTokensOwnedByAccount
 
 ## Supported Chains
 

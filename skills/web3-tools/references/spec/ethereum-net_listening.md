@@ -3,7 +3,6 @@
 > net_listening
 
 - **Category**: Node API - Ethereum (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/ethereum-net_listening
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > eth_getBlockReceipts
 
 - **Category**: Node API - Ethereum (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/ethereum-eth_getblockreceipts
 
 ## Supported Chains
 

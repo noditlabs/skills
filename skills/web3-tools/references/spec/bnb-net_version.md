@@ -3,7 +3,6 @@
 > net_version
 
 - **Category**: Node API - Bnb (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/bnb-net_version
 
 ## Supported Chains
 

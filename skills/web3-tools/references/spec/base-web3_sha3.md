@@ -3,7 +3,6 @@
 > web3_sha3
 
 - **Category**: Node API - Base (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/base-web3_sha3
 
 ## Supported Chains
 

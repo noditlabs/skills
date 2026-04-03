@@ -3,7 +3,6 @@
 > sui_getEvents
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-sui_getEvents
 
 ## Supported Chains
 

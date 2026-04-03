@@ -3,7 +3,6 @@
 > Get Token Accounts by Asset Type
 
 - **Category**: Data API - Token
-- **Official Docs**: https://developer.nodit.io/reference/getTokenAccountsByAssetType
 
 ## Supported Chains
 

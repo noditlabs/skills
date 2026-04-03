@@ -3,7 +3,6 @@
 > Get Transactions By Hashes
 
 - **Category**: Data API - Blockchain
-- **Official Docs**: https://developer.nodit.io/reference/getTransactionsByHashes
 
 ## Supported Chains
 

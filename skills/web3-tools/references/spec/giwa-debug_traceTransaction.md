@@ -3,7 +3,6 @@
 > debug_traceTransaction
 
 - **Category**: Node API - Giwa Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/giwa-debug_tracetransaction
 
 ## Supported Chains
 

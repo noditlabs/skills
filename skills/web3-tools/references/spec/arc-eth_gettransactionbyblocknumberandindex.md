@@ -3,7 +3,6 @@
 > eth_getTransactionByBlockNumberAndIndex
 
 - **Category**: Node API - Arc (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/arc-eth_gettransactionbyblocknumberandindex
 
 ## Supported Chains
 

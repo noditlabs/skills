@@ -3,7 +3,6 @@
 > debug_traceCall
 
 - **Category**: Node API - Giwa Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/giwa-debug_tracecall
 
 ## Supported Chains
 

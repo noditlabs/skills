@@ -3,7 +3,6 @@
 > Get Native Transfers Within Range
 
 - **Category**: Data API - Token
-- **Official Docs**: https://developer.nodit.io/reference/getNativeTransfersWithinRange
 
 ## Supported Chains
 

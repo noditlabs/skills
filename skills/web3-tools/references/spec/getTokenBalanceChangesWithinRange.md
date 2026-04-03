@@ -3,7 +3,6 @@
 > Get Token Balance Changes Within Range
 
 - **Category**: Data API - Token
-- **Official Docs**: https://developer.nodit.io/reference/getTokenBalanceChangesWithinRange
 
 ## Supported Chains
 

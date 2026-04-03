@@ -3,7 +3,6 @@
 > Get Token Holders By Contract
 
 - **Category**: Data API - Token
-- **Official Docs**: https://developer.nodit.io/reference/getTokenHoldersByContract
 
 ## Supported Chains
 

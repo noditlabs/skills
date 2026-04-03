@@ -3,7 +3,6 @@
 > debug_traceCall
 
 - **Category**: Node API - Luniverse Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/luniverse-debug_tracecall
 
 ## Supported Chains
 

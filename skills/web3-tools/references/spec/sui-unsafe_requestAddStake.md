@@ -3,7 +3,6 @@
 > unsafe_requestAddStake
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-unsafe_requestAddStake
 
 ## Supported Chains
 

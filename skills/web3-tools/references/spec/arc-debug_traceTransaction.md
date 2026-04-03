@@ -3,7 +3,6 @@
 > debug_traceTransaction
 
 - **Category**: Node API - Arc Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/arc-debug_tracetransaction
 
 ## Supported Chains
 

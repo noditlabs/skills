@@ -3,7 +3,6 @@
 > eth_getLogs
 
 - **Category**: Node API - Polygon (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/polygon-eth_getlogs
 
 ## Supported Chains
 

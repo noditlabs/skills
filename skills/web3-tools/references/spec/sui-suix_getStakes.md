@@ -3,7 +3,6 @@
 > suix_getStakes
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-suix_getStakes
 
 ## Supported Chains
 

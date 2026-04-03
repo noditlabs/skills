@@ -3,7 +3,6 @@
 > eth_getFilterChanges
 
 - **Category**: Node API - Avalanche (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/avalanche-eth_getfilterchanges
 
 ## Supported Chains
 

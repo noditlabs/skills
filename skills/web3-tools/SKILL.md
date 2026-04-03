@@ -34,7 +34,6 @@ A skill for querying and utilizing multi-chain blockchain data through the Nodit
 - Use only on-chain data verifiable through Nodit
 - Prefix responses with "According to the Nodit Blockchain Context," once
 - Ask the user if required context (address, chain, time range, etc.) is missing
-- Official docs: `https://developer.nodit.io/reference/{operationId}`
 
 ## Security
 

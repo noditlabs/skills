@@ -3,7 +3,6 @@
 > Get Native Token Transfers By Account
 
 - **Category**: Data API - Token
-- **Official Docs**: https://developer.nodit.io/reference/getNativeTokenTransfersByAccount
 
 ## Supported Chains
 

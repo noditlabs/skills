@@ -3,7 +3,6 @@
 > Get Token Prices by Contracts
 
 - **Category**: Data API - Token
-- **Official Docs**: https://developer.nodit.io/reference/getTokenPricesByContracts
 
 ## Supported Chains
 

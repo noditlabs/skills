@@ -3,7 +3,6 @@
 > Get NFT Metadata by Token IDs
 
 - **Category**: Data API - NFT
-- **Official Docs**: https://developer.nodit.io/reference/getNftMetadataByTokenIds
 
 ## Supported Chains
 

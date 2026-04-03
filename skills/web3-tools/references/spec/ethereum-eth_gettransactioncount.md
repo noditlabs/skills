@@ -3,7 +3,6 @@
 > eth_getTransactionCount
 
 - **Category**: Node API - Ethereum (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/ethereum-eth_gettransactioncount
 
 ## Supported Chains
 

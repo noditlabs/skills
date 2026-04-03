@@ -3,7 +3,6 @@
 > net_version
 
 - **Category**: Node API - Avalanche (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/avalanche-net_version
 
 ## Supported Chains
 

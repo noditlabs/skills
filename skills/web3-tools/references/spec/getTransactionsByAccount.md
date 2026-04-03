@@ -3,7 +3,6 @@
 > Get Transactions By Account
 
 - **Category**: Data API - Blockchain
-- **Official Docs**: https://developer.nodit.io/reference/getTransactionsByAccount
 
 ## Supported Chains
 

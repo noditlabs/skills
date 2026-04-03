@@ -3,7 +3,6 @@
 > eth_blockNumber
 
 - **Category**: Node API - Ethereum (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/ethereum-eth_blocknumber
 
 ## Supported Chains
 

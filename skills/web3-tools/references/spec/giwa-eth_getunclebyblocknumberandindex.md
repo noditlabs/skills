@@ -3,7 +3,6 @@
 > eth_getUncleByBlockNumberAndIndex
 
 - **Category**: Node API - Giwa (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/giwa-eth_getunclebyblocknumberandindex
 
 ## Supported Chains
 

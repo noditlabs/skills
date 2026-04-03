@@ -3,7 +3,6 @@
 > Get Token Balance Changes by Asset Type
 
 - **Category**: Data API - Token
-- **Official Docs**: https://developer.nodit.io/reference/getTokenBalanceChangesByAssetType
 
 ## Supported Chains
 

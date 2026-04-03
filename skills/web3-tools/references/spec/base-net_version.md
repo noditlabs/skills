@@ -3,7 +3,6 @@
 > net_version
 
 - **Category**: Node API - Base (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/base-net_version
 
 ## Supported Chains
 

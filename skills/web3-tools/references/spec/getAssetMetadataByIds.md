@@ -3,7 +3,6 @@
 > Get Asset Metadata By IDs
 
 - **Category**: Data API - Asset
-- **Official Docs**: https://developer.nodit.io/reference/getAssetMetadataByIds
 
 ## Supported Chains
 

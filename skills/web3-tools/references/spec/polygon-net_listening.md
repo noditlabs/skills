@@ -3,7 +3,6 @@
 > net_listening
 
 - **Category**: Node API - Polygon (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/polygon-net_listening
 
 ## Supported Chains
 

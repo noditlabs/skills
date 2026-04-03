@@ -3,7 +3,6 @@
 > debug_traceTransaction
 
 - **Category**: Node API - Polygon Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/polygon-debug_tracetransaction
 
 ## Supported Chains
 

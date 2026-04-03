@@ -3,7 +3,6 @@
 > sui_verifyZkLoginSignature
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-sui_verifyZkLoginSignature
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > net_version
 
 - **Category**: Node API - Arc (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/arc-net_version
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > Get Ledgers Within Range
 
 - **Category**: Data API - Blockchain
-- **Official Docs**: https://developer.nodit.io/reference/getLedgersWithinRange
 
 ## Supported Chains
 

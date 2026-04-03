@@ -3,7 +3,6 @@
 > trace_transaction
 
 - **Category**: Node API - Ethereum (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/ethereum-trace_transaction
 
 ## Supported Chains
 

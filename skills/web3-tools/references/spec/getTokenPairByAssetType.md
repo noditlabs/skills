@@ -3,7 +3,6 @@
 > Get Token Pair by Asset Type
 
 - **Category**: Data API - Token
-- **Official Docs**: https://developer.nodit.io/reference/getTokenPairByAssetType
 
 ## Supported Chains
 

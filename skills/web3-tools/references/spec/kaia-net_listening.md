@@ -3,7 +3,6 @@
 > net_listening
 
 - **Category**: Node API - Kaia (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/kaia-net_listening
 
 ## Supported Chains
 

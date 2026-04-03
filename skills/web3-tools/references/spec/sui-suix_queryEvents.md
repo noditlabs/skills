@@ -3,7 +3,6 @@
 > suix_queryEvents
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-suix_queryEvents
 
 ## Supported Chains
 

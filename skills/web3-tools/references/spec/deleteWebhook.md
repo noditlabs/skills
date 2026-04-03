@@ -3,7 +3,6 @@
 > Delete Webhook
 
 - **Category**: Webhook API
-- **Official Docs**: https://developer.nodit.io/reference/deleteWebhook
 
 ## Supported Chains
 

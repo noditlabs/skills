@@ -3,7 +3,6 @@
 > Submit batch transactions
 
 - **Category**: Node API - Aptos (REST)
-- **Official Docs**: https://developer.nodit.io/reference/aptos-submitBatchTransactions
 
 ## Supported Chains
 

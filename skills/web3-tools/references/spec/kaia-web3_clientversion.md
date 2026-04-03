@@ -3,7 +3,6 @@
 > web3_clientVersion
 
 - **Category**: Node API - Kaia (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/kaia-web3_clientversion
 
 ## Supported Chains
 

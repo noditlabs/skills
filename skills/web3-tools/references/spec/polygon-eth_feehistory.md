@@ -3,7 +3,6 @@
 > eth_feeHistory
 
 - **Category**: Node API - Polygon (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/polygon-eth_feehistory
 
 ## Supported Chains
 

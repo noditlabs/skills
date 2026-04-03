@@ -3,7 +3,6 @@
 > unsafe_moveCall
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-unsafe_moveCall
 
 ## Supported Chains
 

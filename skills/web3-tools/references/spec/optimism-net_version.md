@@ -3,7 +3,6 @@
 > net_version
 
 - **Category**: Node API - Optimism (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/optimism-net_version
 
 ## Supported Chains
 

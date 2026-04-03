@@ -3,7 +3,6 @@
 > Get Asset Transfers Within Range
 
 - **Category**: Data API - Asset
-- **Official Docs**: https://developer.nodit.io/reference/getAssetTransfersWithinRange
 
 ## Supported Chains
 

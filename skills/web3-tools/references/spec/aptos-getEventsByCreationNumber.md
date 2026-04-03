@@ -3,7 +3,6 @@
 > Get events by creation number
 
 - **Category**: Node API - Aptos (REST)
-- **Official Docs**: https://developer.nodit.io/reference/aptos-getEventsByCreationNumber
 
 ## Supported Chains
 

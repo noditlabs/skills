@@ -3,7 +3,6 @@
 > Get Webhook
 
 - **Category**: Webhook API
-- **Official Docs**: https://developer.nodit.io/reference/getWebhook
 
 ## Supported Chains
 

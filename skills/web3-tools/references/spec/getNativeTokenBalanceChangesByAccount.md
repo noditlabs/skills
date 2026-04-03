@@ -3,7 +3,6 @@
 > Get Native Token Balance Changes By Account
 
 - **Category**: Data API - Token
-- **Official Docs**: https://developer.nodit.io/reference/getNativeTokenBalanceChangesByAccount
 
 ## Supported Chains
 

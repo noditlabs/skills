@@ -3,7 +3,6 @@
 > Get Asset Metadata By Issuer
 
 - **Category**: Data API - Asset
-- **Official Docs**: https://developer.nodit.io/reference/getAssetMetadataByIssuer
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > suix_getLatestSuiSystemState
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-suix_getLatestSuiSystemState
 
 ## Supported Chains
 

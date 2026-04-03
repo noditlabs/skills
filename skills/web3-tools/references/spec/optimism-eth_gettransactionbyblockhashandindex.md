@@ -3,7 +3,6 @@
 > eth_getTransactionByBlockHashAndIndex
 
 - **Category**: Node API - Optimism (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/optimism-eth_gettransactionbyblockhashandindex
 
 ## Supported Chains
 

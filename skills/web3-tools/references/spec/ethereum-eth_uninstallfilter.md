@@ -3,7 +3,6 @@
 > eth_uninstallFilter
 
 - **Category**: Node API - Ethereum (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/ethereum-eth_uninstallfilter
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > debug_traceBlockByNumber
 
 - **Category**: Node API - Base Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/base-debug_traceblockbynumber
 
 ## Supported Chains
 

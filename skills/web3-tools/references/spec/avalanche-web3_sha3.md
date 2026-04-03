@@ -3,7 +3,6 @@
 > web3_sha3
 
 - **Category**: Node API - Avalanche (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/avalanche-web3_sha3
 
 ## Supported Chains
 

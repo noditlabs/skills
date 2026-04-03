@@ -3,7 +3,6 @@
 > Search NFT Contract Metadata By Keyword
 
 - **Category**: Data API - NFT
-- **Official Docs**: https://developer.nodit.io/reference/searchNftContractMetadataByKeyword
 
 ## Supported Chains
 

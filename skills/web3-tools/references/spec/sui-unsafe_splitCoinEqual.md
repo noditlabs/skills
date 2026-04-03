@@ -3,7 +3,6 @@
 > unsafe_splitCoinEqual
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-unsafe_splitCoinEqual
 
 ## Supported Chains
 

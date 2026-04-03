@@ -3,7 +3,6 @@
 > klay_newPendingTransactionFilter
 
 - **Category**: Node API - Kaia (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/kaia-klay_newpendingtransactionfilter
 
 ## Supported Chains
 

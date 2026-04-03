@@ -3,7 +3,6 @@
 > eth_estimateGas
 
 - **Category**: Node API - Avalanche (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/avalanche-eth_estimategas
 
 ## Supported Chains
 

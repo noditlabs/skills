@@ -3,7 +3,6 @@
 > debug_traceCall
 
 - **Category**: Node API - Optimism Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/optimism-debug_tracecall
 
 ## Supported Chains
 

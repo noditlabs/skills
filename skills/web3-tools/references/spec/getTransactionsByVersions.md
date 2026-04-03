@@ -3,7 +3,6 @@
 > Get Transactions By Versions
 
 - **Category**: Data API - Blockchain
-- **Official Docs**: https://developer.nodit.io/reference/getTransactionsByVersions
 
 ## Supported Chains
 

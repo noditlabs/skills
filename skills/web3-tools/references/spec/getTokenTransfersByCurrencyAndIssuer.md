@@ -3,7 +3,6 @@
 > Get Token Transfers By Currency And Issuer
 
 - **Category**: Data API - Token
-- **Official Docs**: https://developer.nodit.io/reference/getTokenTransfersByCurrencyAndIssuer
 
 ## Supported Chains
 

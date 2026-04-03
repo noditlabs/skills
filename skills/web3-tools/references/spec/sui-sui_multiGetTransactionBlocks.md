@@ -3,7 +3,6 @@
 > sui_multiGetTransactionBlocks
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-sui_multiGetTransactionBlocks
 
 ## Supported Chains
 

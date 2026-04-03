@@ -3,7 +3,6 @@
 > Get NFT Holders by Token ID
 
 - **Category**: Data API - NFT
-- **Official Docs**: https://developer.nodit.io/reference/getNftHoldersByTokenId
 
 ## Supported Chains
 

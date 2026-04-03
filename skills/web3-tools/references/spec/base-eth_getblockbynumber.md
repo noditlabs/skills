@@ -3,7 +3,6 @@
 > eth_getBlockByNumber
 
 - **Category**: Node API - Base (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/base-eth_getblockbynumber
 
 ## Supported Chains
 

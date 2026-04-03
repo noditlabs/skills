@@ -3,7 +3,6 @@
 > Get Gas Price
 
 - **Category**: Data API - Blockchain
-- **Official Docs**: https://developer.nodit.io/reference/getGasPrice
 
 ## Supported Chains
 

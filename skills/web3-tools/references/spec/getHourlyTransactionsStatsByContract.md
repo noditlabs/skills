@@ -3,7 +3,6 @@
 > Get Hourly Transactions Stats By Contract
 
 - **Category**: Data API - Statistics
-- **Official Docs**: https://developer.nodit.io/reference/getHourlyTransactionsStatsByContract
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > Get Hourly Transactions Stats
 
 - **Category**: Data API - Statistics
-- **Official Docs**: https://developer.nodit.io/reference/getHourlyTransactionsStats
 
 ## Supported Chains
 

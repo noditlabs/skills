@@ -3,7 +3,6 @@
 > Get Token Allowance
 
 - **Category**: Data API - Token
-- **Official Docs**: https://developer.nodit.io/reference/getTokenAllowance
 
 ## Supported Chains
 

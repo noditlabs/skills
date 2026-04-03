@@ -3,7 +3,6 @@
 > Get Asset Holders By ID
 
 - **Category**: Data API - Asset
-- **Official Docs**: https://developer.nodit.io/reference/getAssetHoldersById
 
 ## Supported Chains
 

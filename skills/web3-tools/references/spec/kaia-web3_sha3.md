@@ -3,7 +3,6 @@
 > web3_sha3
 
 - **Category**: Node API - Kaia (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/kaia-web3_sha3
 
 ## Supported Chains
 

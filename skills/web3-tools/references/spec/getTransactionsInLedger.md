@@ -3,7 +3,6 @@
 > Get Transactions In Ledger
 
 - **Category**: Data API - Blockchain
-- **Official Docs**: https://developer.nodit.io/reference/getTransactionsInLedger
 
 ## Supported Chains
 

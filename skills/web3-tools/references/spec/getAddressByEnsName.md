@@ -3,7 +3,6 @@
 > Get Address By ENS Name
 
 - **Category**: Data API - ENS
-- **Official Docs**: https://developer.nodit.io/reference/getAddressByEnsName
 
 ## Supported Chains
 

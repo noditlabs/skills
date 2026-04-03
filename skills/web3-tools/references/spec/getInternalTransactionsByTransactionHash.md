@@ -3,7 +3,6 @@
 > Get Internal Transactions By Transaction Hash
 
 - **Category**: Data API - Blockchain
-- **Official Docs**: https://developer.nodit.io/reference/getInternalTransactionsByTransactionHash
 
 ## Supported Chains
 

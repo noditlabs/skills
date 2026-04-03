@@ -3,7 +3,6 @@
 > Get Transactions In Block
 
 - **Category**: Data API - Blockchain
-- **Official Docs**: https://developer.nodit.io/reference/getTransactionsInBlock
 
 ## Supported Chains
 

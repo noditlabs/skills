@@ -3,7 +3,6 @@
 > klay_getFilterLogs
 
 - **Category**: Node API - Kaia (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/kaia-klay_getfilterlogs
 
 ## Supported Chains
 

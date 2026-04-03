@@ -3,7 +3,6 @@
 > eth_newPendingTransactionFilter
 
 - **Category**: Node API - Luniverse (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/luniverse-eth_newpendingtransactionfilter
 
 ## Supported Chains
 

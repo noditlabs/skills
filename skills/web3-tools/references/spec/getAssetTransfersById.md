@@ -3,7 +3,6 @@
 > Get Asset Transfers By ID
 
 - **Category**: Data API - Asset
-- **Official Docs**: https://developer.nodit.io/reference/getAssetTransfersById
 
 ## Supported Chains
 

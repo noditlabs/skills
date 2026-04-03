@@ -3,7 +3,6 @@
 > eth_newPendingTransactionFilter
 
 - **Category**: Node API - Optimism (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/optimism-eth_newpendingtransactionfilter
 
 ## Supported Chains
 

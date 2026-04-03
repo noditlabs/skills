@@ -3,7 +3,6 @@
 > suix_subscribeTransaction
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-suix_subscribeTransaction
 
 ## Supported Chains
 

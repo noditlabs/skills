@@ -3,7 +3,6 @@
 > web3_sha3
 
 - **Category**: Node API - Luniverse (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/luniverse-web3_sha3
 
 ## Supported Chains
 

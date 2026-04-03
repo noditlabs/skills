@@ -3,7 +3,6 @@
 > eth_newPendingTransactionFilter
 
 - **Category**: Node API - Avalanche (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/avalanche-eth_newpendingtransactionfilter
 
 ## Supported Chains
 

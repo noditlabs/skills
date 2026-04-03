@@ -3,7 +3,6 @@
 > Get Account Stats
 
 - **Category**: Data API - Statistics
-- **Official Docs**: https://developer.nodit.io/reference/getAccountStats
 
 ## Supported Chains
 

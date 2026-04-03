@@ -3,7 +3,6 @@
 > eth_getStorageAt
 
 - **Category**: Node API - Bnb (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/bnb-eth_getstorageat
 
 ## Supported Chains
 

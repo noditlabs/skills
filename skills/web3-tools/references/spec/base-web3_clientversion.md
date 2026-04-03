@@ -3,7 +3,6 @@
 > web3_clientVersion
 
 - **Category**: Node API - Base (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/base-web3_clientversion
 
 ## Supported Chains
 

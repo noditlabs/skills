@@ -3,7 +3,6 @@
 > eth_maxPriorityFeePerGas
 
 - **Category**: Node API - Ethereum (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/ethereum-eth_maxpriorityfeepergas
 
 ## Supported Chains
 

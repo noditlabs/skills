@@ -3,7 +3,6 @@
 > optimism_rollupConfig
 
 - **Category**: Node API - Giwa (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/giwa-optimism_rollupconfig
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > Get Transactions By Transaction IDs
 
 - **Category**: Data API - Blockchain
-- **Official Docs**: https://developer.nodit.io/reference/getTransactionsByTransactionIds
 
 ## Supported Chains
 

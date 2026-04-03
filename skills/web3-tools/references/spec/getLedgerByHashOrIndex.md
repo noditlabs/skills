@@ -3,7 +3,6 @@
 > Get Ledger By Hash Or Index
 
 - **Category**: Data API - Blockchain
-- **Official Docs**: https://developer.nodit.io/reference/getLedgerByHashOrIndex
 
 ## Supported Chains
 

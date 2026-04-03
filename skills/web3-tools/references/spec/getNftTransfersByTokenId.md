@@ -3,7 +3,6 @@
 > Get NFT Transfers By TokenId
 
 - **Category**: Data API - NFT
-- **Official Docs**: https://developer.nodit.io/reference/getNftTransfersByTokenId
 
 ## Supported Chains
 

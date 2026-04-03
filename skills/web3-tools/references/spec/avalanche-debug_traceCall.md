@@ -3,7 +3,6 @@
 > debug_traceCall
 
 - **Category**: Node API - Avalanche Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/avalanche-debug_tracecall
 
 ## Supported Chains
 

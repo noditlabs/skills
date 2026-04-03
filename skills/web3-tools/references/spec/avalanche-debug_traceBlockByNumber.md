@@ -3,7 +3,6 @@
 > debug_traceBlockByNumber
 
 - **Category**: Node API - Avalanche Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/avalanche-debug_traceblockbynumber
 
 ## Supported Chains
 

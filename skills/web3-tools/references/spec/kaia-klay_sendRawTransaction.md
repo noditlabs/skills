@@ -3,7 +3,6 @@
 > klay_sendRawTransaction
 
 - **Category**: Node API - Kaia (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/kaia-klay_sendrawtransaction
 
 ## Supported Chains
 

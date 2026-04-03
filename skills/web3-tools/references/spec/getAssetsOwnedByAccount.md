@@ -3,7 +3,6 @@
 > Get Assets Owned By Account
 
 - **Category**: Data API - Asset
-- **Official Docs**: https://developer.nodit.io/reference/getAssetsOwnedByAccount
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > web3_sha3
 
 - **Category**: Node API - Arc (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/arc-web3_sha3
 
 ## Supported Chains
 

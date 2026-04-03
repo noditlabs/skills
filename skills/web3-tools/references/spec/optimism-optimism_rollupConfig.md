@@ -3,7 +3,6 @@
 > optimism_rollupConfig
 
 - **Category**: Node API - Optimism (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/optimism-optimism_rollupconfig
 
 ## Supported Chains
 

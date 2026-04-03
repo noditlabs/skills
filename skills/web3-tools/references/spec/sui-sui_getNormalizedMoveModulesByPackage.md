@@ -3,7 +3,6 @@
 > sui_getNormalizedMoveModulesByPackage
 
 - **Category**: Node API - Sui (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/sui-sui_getNormalizedMoveModulesByPackage
 
 ## Supported Chains
 

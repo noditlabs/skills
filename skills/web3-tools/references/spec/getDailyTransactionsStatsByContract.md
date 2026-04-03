@@ -3,7 +3,6 @@
 > Get Daily Transactions Stats By Contract
 
 - **Category**: Data API - Statistics
-- **Official Docs**: https://developer.nodit.io/reference/getDailyTransactionsStatsByContract
 
 ## Supported Chains
 

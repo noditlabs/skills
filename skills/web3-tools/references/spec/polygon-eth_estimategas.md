@@ -3,7 +3,6 @@
 > eth_estimateGas
 
 - **Category**: Node API - Polygon (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/polygon-eth_estimategas
 
 ## Supported Chains
 

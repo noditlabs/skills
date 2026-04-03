@@ -3,7 +3,6 @@
 > eth_newBlockFilter
 
 - **Category**: Node API - Base (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/base-eth_newblockfilter
 
 ## Supported Chains
 

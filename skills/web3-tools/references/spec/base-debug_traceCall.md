@@ -3,7 +3,6 @@
 > debug_traceCall
 
 - **Category**: Node API - Base Debug (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/base-debug_tracecall
 
 ## Supported Chains
 

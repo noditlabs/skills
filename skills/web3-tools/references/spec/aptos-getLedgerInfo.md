@@ -3,7 +3,6 @@
 > Get ledger info
 
 - **Category**: Node API - Aptos (REST)
-- **Official Docs**: https://developer.nodit.io/reference/aptos-getLedgerInfo
 
 ## Supported Chains
 

@@ -3,7 +3,6 @@
 > eth_getFilterChanges
 
 - **Category**: Node API - Polygon (JSON-RPC)
-- **Official Docs**: https://developer.nodit.io/reference/polygon-eth_getfilterchanges
 
 ## Supported Chains
 

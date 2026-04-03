@@ -3,7 +3,6 @@
 > Get transaction by version
 
 - **Category**: Node API - Aptos (REST)
-- **Official Docs**: https://developer.nodit.io/reference/aptos-getTransactionByVersion
 
 ## Supported Chains
 
