@@ -86,4 +86,9 @@ Works alongside the `web3-tools` skill: this skill handles wallet-based authenti
 
 - [Nodit Developer Docs](https://developer.nodit.io)
 - [x402 Protocol](https://www.x402.org/)
+- [Agent Skills Specification](https://agentskills.io)
 - [skills.sh](https://skills.sh)
+
+## License
+
+MIT

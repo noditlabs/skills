@@ -1,6 +1,11 @@
 ---
 name: web3-tools
 description: Use when user asks about blockchain data or building Web3 applications — token balances, NFT ownership, transaction history, ENS resolution, on-chain statistics, JSON-RPC calls, webhooks, real-time monitoring, or any Nodit API integration across EVM, Solana, Sui, Aptos, and other chains
+license: MIT
+compatibility: Requires network access to web3.nodit.io. Needs NODIT_API_KEY environment variable.
+metadata:
+  author: noditlabs
+  version: "1.0"
 ---
 
 # Web3 Tools
@@ -17,7 +22,10 @@ A skill for querying and utilizing multi-chain blockchain data through the Nodit
 - On-chain event monitoring (Webhook)
 - Gas fee / transaction fee checks
 - Token holder / transfer history analysis
-- For x402 USDC payments (no API key), see the `web3-x402` skill
+- For x402 USDC payments (no API key), install the web3-x402 skill instead:
+  ```bash
+  npx skills add noditlabs/skills --skill web3-x402
+  ```
 
 ## Constraints
 

@@ -1,6 +1,11 @@
 ---
 name: web3-x402
 description: Use when user wants to query blockchain data or build Web3 applications using the web3-tools skill without API key authentication — paying with USDC via the x402 protocol instead, using wallet-based auth (SIWX/SIWE/SIWS), credit charging, or pay-per-use billing
+license: MIT
+compatibility: Requires network access to x402.nodit.io. Requires a wallet with USDC for payment. Works alongside the web3-tools skill.
+metadata:
+  author: noditlabs
+  version: "1.0"
 ---
 
 # Web3 x402
